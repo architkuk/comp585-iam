@@ -137,7 +137,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.856
       },
       "objectsGroups": [],
       "variables": [],
@@ -171,7 +171,7 @@
               "name": "SineMovement",
               "type": "SineMovement::SineMovement",
               "SineSpeed": 60,
-              "AmplitudeX": 100,
+              "AmplitudeX": 50,
               "AmplitudeY": 0,
               "InitialX": 0,
               "InitialY": 0,
