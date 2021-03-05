@@ -141,6 +141,51 @@
         "name": "tempRestaurant.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/temp/temptitle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\temp\\temptitle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/temp/tempStartButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\temp\\tempStartButton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/temp/tempStartButtonPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\temp\\tempStartButtonPressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/temp/tempMap.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\temp\\tempMap.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/temp/tempRestaurant.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\temp\\tempRestaurant.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -299,7 +344,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "temptitle.png",
+                      "image": "assets\\temp\\temptitle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -338,7 +383,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tempStartButton.png",
+                      "image": "assets\\temp\\tempStartButton.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -367,7 +412,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tempStartButtonPressed.png",
+                      "image": "assets\\temp\\tempStartButtonPressed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -687,7 +732,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tempMap.jpg",
+                      "image": "assets\\temp\\tempMap.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -726,7 +771,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tempRestaurant.jpg",
+                      "image": "assets\\temp\\tempRestaurant.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
