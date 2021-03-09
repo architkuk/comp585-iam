@@ -249,6 +249,7 @@
         "name": "assets\\food\\Flan.jpg.png",
         "smoothed": true,
         "userAdded": false
+<<<<<<< Updated upstream
       },
       {
         "alwaysLoaded": false,
@@ -258,6 +259,8 @@
         "name": "assets\\map.png",
         "smoothed": true,
         "userAdded": false
+=======
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -677,7 +680,11 @@
               "parameters": [
                 "user",
                 "=",
+<<<<<<< Updated upstream
                 "\"username:\n\" + usernae.String()"
+=======
+                "\"Username:\n\" + usernae.String()"
+>>>>>>> Stashed changes
               ],
               "subInstructions": []
             },
@@ -689,7 +696,11 @@
               "parameters": [
                 "NewObject2",
                 "=",
+<<<<<<< Updated upstream
                 "\"Passowrd:\" + password.String()"
+=======
+                "\"Password:\" + password.String()"
+>>>>>>> Stashed changes
               ],
               "subInstructions": []
             }
@@ -779,22 +790,37 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.802
+=======
+        "zoomFactor": 0.748
+>>>>>>> Stashed changes
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
         {
           "angle": 0,
+<<<<<<< Updated upstream
           "customSize": true,
           "height": 598,
+=======
+          "customSize": false,
+          "height": 0,
+>>>>>>> Stashed changes
           "layer": "",
           "locked": false,
           "name": "tempMap",
           "persistentUuid": "11f0f415-7860-4859-9912-35bd3f90ca93",
+<<<<<<< Updated upstream
           "width": 802,
           "x": -1,
           "y": 1,
+=======
+          "width": 0,
+          "x": 5,
+          "y": -101,
+>>>>>>> Stashed changes
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -809,8 +835,13 @@
           "name": "tempRestaurant",
           "persistentUuid": "31f6cd6b-acc6-417c-b147-342ced87b1d4",
           "width": 220,
+<<<<<<< Updated upstream
           "x": 120,
           "y": 210,
+=======
+          "x": 92,
+          "y": 105,
+>>>>>>> Stashed changes
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -836,7 +867,11 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
+<<<<<<< Updated upstream
                       "image": "assets\\map.png",
+=======
+                      "image": "assets\\temp\\tempMap.jpg",
+>>>>>>> Stashed changes
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1005,7 +1040,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.91
+=======
+        "zoomFactor": 0.82
+>>>>>>> Stashed changes
       },
       "objectsGroups": [],
       "variables": [],
@@ -1891,6 +1930,7 @@
               "events": []
             }
           ]
+<<<<<<< Updated upstream
         },
         {
           "disabled": false,
@@ -1948,6 +1988,8 @@
             }
           ],
           "events": []
+=======
+>>>>>>> Stashed changes
         }
       ],
       "layers": [
