@@ -250,6 +250,7 @@
         "smoothed": true,
         "userAdded": false
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       },
       {
         "alwaysLoaded": false,
@@ -259,6 +260,8 @@
         "name": "assets\\map.png",
         "smoothed": true,
         "userAdded": false
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       }
@@ -293,7 +296,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.37
+=======
+        "zoomFactor": 1
+>>>>>>> Stashed changes
       },
       "objectsGroups": [
         {
@@ -681,7 +688,11 @@
                 "user",
                 "=",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 "\"username:\n\" + usernae.String()"
+=======
+                "\"Username:\n\" + usernae.String()"
+>>>>>>> Stashed changes
 =======
                 "\"Username:\n\" + usernae.String()"
 >>>>>>> Stashed changes
@@ -697,7 +708,11 @@
                 "NewObject2",
                 "=",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 "\"Passowrd:\" + password.String()"
+=======
+                "\"Password:\" + password.String()"
+>>>>>>> Stashed changes
 =======
                 "\"Password:\" + password.String()"
 >>>>>>> Stashed changes
@@ -759,7 +774,11 @@
         "snap": true,
         "windowMask": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "zoomFactor": 0.802
+=======
+        "zoomFactor": 0.748
+>>>>>>> Stashed changes
 =======
         "zoomFactor": 0.748
 >>>>>>> Stashed changes
@@ -770,8 +789,13 @@
         {
           "angle": 0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "customSize": true,
           "height": 598,
+=======
+          "customSize": false,
+          "height": 0,
+>>>>>>> Stashed changes
 =======
           "customSize": false,
           "height": 0,
@@ -781,9 +805,15 @@
           "name": "tempMap",
           "persistentUuid": "11f0f415-7860-4859-9912-35bd3f90ca93",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "width": 802,
           "x": -1,
           "y": 1,
+=======
+          "width": 0,
+          "x": 5,
+          "y": -101,
+>>>>>>> Stashed changes
 =======
           "width": 0,
           "x": 5,
@@ -804,8 +834,13 @@
           "persistentUuid": "31f6cd6b-acc6-417c-b147-342ced87b1d4",
           "width": 220,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "x": 120,
           "y": 210,
+=======
+          "x": 92,
+          "y": 105,
+>>>>>>> Stashed changes
 =======
           "x": 92,
           "y": 105,
@@ -836,7 +871,11 @@
                     {
                       "hasCustomCollisionMask": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                       "image": "assets\\map.png",
+=======
+                      "image": "assets\\temp\\tempMap.jpg",
+>>>>>>> Stashed changes
 =======
                       "image": "assets\\temp\\tempMap.jpg",
 >>>>>>> Stashed changes
@@ -1009,7 +1048,11 @@
         "snap": true,
         "windowMask": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "zoomFactor": 0.91
+=======
+        "zoomFactor": 0.82
+>>>>>>> Stashed changes
 =======
         "zoomFactor": 0.82
 >>>>>>> Stashed changes
@@ -1899,6 +1942,7 @@
             }
           ]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         },
         {
           "disabled": false,
@@ -1956,6 +2000,8 @@
             }
           ],
           "events": []
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         }
