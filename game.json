@@ -677,7 +677,7 @@
               "parameters": [
                 "user",
                 "=",
-                "\"username:\n\" + usernae.String()"
+                "\"Username:\n\" + usernae.String()"
               ],
               "subInstructions": []
             },
@@ -689,7 +689,7 @@
               "parameters": [
                 "Password",
                 "=",
-                "\"Passowrd:\" + password.String()"
+                "\"Password:\" + password.String()"
               ],
               "subInstructions": []
             }
@@ -1010,22 +1010,6 @@
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 153,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "persistentUuid": "732ff142-ade3-4fd6-b4d4-ec67bcfa199e",
-          "width": 181,
-          "x": 151,
-          "y": 62,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
