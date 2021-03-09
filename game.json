@@ -249,6 +249,15 @@
         "name": "assets\\food\\Flan.jpg.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\map.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -281,7 +290,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.55
       },
       "objectsGroups": [
         {
@@ -345,7 +354,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "NewObject2",
+          "name": "Password",
           "persistentUuid": "e188afb1-1e8f-44ee-862d-d100a833ac67",
           "width": 0,
           "x": 541,
@@ -518,7 +527,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "NewObject2",
+          "name": "Password",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -668,7 +677,7 @@
               "parameters": [
                 "user",
                 "=",
-                "\"Username:\n\" + usernae.String()"
+                "\"username:\n\" + usernae.String()"
               ],
               "subInstructions": []
             },
@@ -678,9 +687,9 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "NewObject2",
+                "Password",
                 "=",
-                "\"Password:\" + password.String()"
+                "\"Passowrd:\" + password.String()"
               ],
               "subInstructions": []
             }
@@ -691,8 +700,32 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "IsFullScreen"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -746,22 +779,22 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.748
+        "zoomFactor": 0.802
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 598,
           "layer": "",
           "locked": false,
           "name": "tempMap",
           "persistentUuid": "11f0f415-7860-4859-9912-35bd3f90ca93",
-          "width": 0,
-          "x": 5,
-          "y": -101,
+          "width": 802,
+          "x": -1,
+          "y": 1,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -776,8 +809,8 @@
           "name": "tempRestaurant",
           "persistentUuid": "31f6cd6b-acc6-417c-b147-342ced87b1d4",
           "width": 220,
-          "x": 92,
-          "y": 105,
+          "x": 120,
+          "y": 210,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -803,7 +836,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\temp\\tempMap.jpg",
+                      "image": "assets\\map.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -972,7 +1005,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.82
+        "zoomFactor": 0.91
       },
       "objectsGroups": [],
       "variables": [],
@@ -1858,6 +1891,63 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "r"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "total",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Answer2",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Answer",
+                "=",
+                "\"Current Order:\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
