@@ -258,6 +258,15 @@
         "name": "assets\\map.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Restaurant_.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Restaurant_.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -790,7 +799,7 @@
           "height": 598,
           "layer": "",
           "locked": false,
-          "name": "tempMap",
+          "name": "Map",
           "persistentUuid": "11f0f415-7860-4859-9912-35bd3f90ca93",
           "width": 802,
           "x": -1,
@@ -803,15 +812,31 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 159,
+          "height": 241,
           "layer": "",
           "locked": false,
-          "name": "tempRestaurant",
+          "name": "Restaurant",
           "persistentUuid": "31f6cd6b-acc6-417c-b147-342ced87b1d4",
-          "width": 220,
-          "x": 120,
-          "y": 210,
+          "width": 265,
+          "x": 518,
+          "y": 344,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "restLabel",
+          "persistentUuid": "b77a9181-e7ab-4a5e-9b3e-695f5aeae158",
+          "width": 0,
+          "x": 595,
+          "y": 391,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -819,7 +844,7 @@
       ],
       "objects": [
         {
-          "name": "tempMap",
+          "name": "Map",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -858,7 +883,7 @@
           ]
         },
         {
-          "name": "tempRestaurant",
+          "name": "Restaurant",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -875,7 +900,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\temp\\tempRestaurant.jpg",
+                      "image": "assets\\Restaurant_.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -895,6 +920,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "restLabel",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "\" \"",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -906,10 +950,42 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "restLabel",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "tempRestaurant",
+                "Restaurant",
                 "",
                 "",
                 ""
@@ -917,7 +993,55 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "restLabel",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Restaurant",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "restLabel",
+                "=",
+                "\"Restaurant\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -1005,7 +1129,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.91
+        "zoomFactor": 0.622
       },
       "objectsGroups": [],
       "variables": [],
@@ -1166,6 +1290,22 @@
           "x": 320,
           "y": 366,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 147,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "persistentUuid": "401116ed-c0d2-4828-b433-273c8810371d",
+          "width": 156,
+          "x": 177,
+          "y": 46,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
