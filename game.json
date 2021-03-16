@@ -375,6 +375,15 @@
         "name": "Purple_Background_2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Purple_Background_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple_Background_3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1237,7 +1246,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [],
@@ -1645,7 +1654,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "_(\"Elena: Hey, you made it!\")",
+          "string": "Elena: Hey, you made it!",
           "font": "",
           "characterSize": 25,
           "color": {
@@ -1764,7 +1773,7 @@
               "parameters": [
                 "DialogueBox",
                 "=",
-                "_(\"Random math fact!\")"
+                "\"Random math fact!\""
               ],
               "subInstructions": []
             }
@@ -1778,7 +1787,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Dialogue",
+          "name": "Event1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -1831,79 +1840,137 @@
                   "parameters": [
                     "DialogueBox",
                     "=",
-                    "_(\"I'm excited for lunch!\")"
+                    "\"I'm excited for lunch!\""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TalkBar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "TalkBar",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "DialogueBox",
+                            "=",
+                            "\"Elena: Shall we order then?\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Waitress",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "SourisSurObjet"
+                              },
+                              "parameters": [
+                                "TalkBar",
+                                "",
+                                "",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "MouseButtonReleased"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Left"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Scene"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Restaurant\"",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "DialogueBox",
-                    "=",
-                    "_(\"Elena: Shall we order then?\")"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Waitress",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              ]
             }
           ]
         }
@@ -1958,7 +2025,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.622
+        "zoomFactor": 0.5
       },
       "objectsGroups": [],
       "variables": [],
@@ -2135,6 +2202,22 @@
           "x": 177,
           "y": 46,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 608,
+          "layer": "",
+          "locked": false,
+          "name": "BGColor",
+          "persistentUuid": "3d2a295b-f13b-42a3-987a-722b666bb62b",
+          "width": 802,
+          "x": -3,
+          "y": -4,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2449,6 +2532,45 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "BGColor",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Purple_Background_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
