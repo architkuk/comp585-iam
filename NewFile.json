@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Elena: Hey, I am so happy to see you here! [[Answer:Node|Node]]",
+		"position": {
+			"x": 169,
+			"y": 33
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "Elena: Thanks for coming! Comida con Amor is my favorite restaurant!",
+		"position": {
+			"x": 412,
+			"y": 37
+		},
+		"colorID": 0
+	}
+]
