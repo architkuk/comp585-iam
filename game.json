@@ -99,51 +99,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "temptitle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "temptitle.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "tempStartButton.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tempStartButton.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "tempStartButtonPressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tempStartButtonPressed.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "tempMap.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "tempMap.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "tempRestaurant.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "tempRestaurant.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/temp/temptitle.png",
         "kind": "image",
         "metadata": "",
@@ -168,51 +123,6 @@
         "name": "assets\\temp\\tempStartButtonPressed.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/temp/tempMap.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\temp\\tempMap.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/temp/tempRestaurant.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\temp\\tempRestaurant.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../../Pictures/2020-03/IMG_0350.JPG",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Pictures\\2020-03\\IMG_0350.JPG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "smiley.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "smiley.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../../Downloads/Flan.jpg.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\Flan.jpg.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -270,15 +180,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Restaurant_Interior_Rough.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Restaurant_Interior_Rough.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Waitress_.png",
         "kind": "image",
         "metadata": "",
@@ -315,24 +216,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Untitled_Artwork-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled_Artwork-2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Untitled_Artwork-22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled_Artwork-22.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Untitled_Artwork-4.png",
         "kind": "image",
         "metadata": "",
@@ -346,24 +229,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Dummy_Protagonist_Back.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Purple_Background_.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Purple_Background_.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Dark_Purple_Background_.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Dark_Purple_Background_.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -392,6 +257,14 @@
         "metadata": "",
         "name": "Untitled_Artwork-23.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "NewFile.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "NewFile.json",
         "userAdded": true
       }
     ],
@@ -422,6 +295,7 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
+        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
@@ -911,6 +785,7 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
+        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
@@ -1252,10 +1127,11 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
+        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.576
+        "zoomFactor": 0.5799999999999997
       },
       "objectsGroups": [],
       "variables": [],
@@ -1476,6 +1352,7 @@
           "variables": [
             {
               "name": "talk",
+              "type": "string",
               "value": "0"
             }
           ],
@@ -1600,7 +1477,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Elena: Hey, you made it!",
+          "string": "Elena:",
           "font": "",
           "characterSize": 25,
           "color": {
@@ -1656,6 +1533,7 @@
           "variables": [
             {
               "name": "Variable",
+              "type": "string",
               "value": "0"
             }
           ],
@@ -1743,6 +1621,27 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "NewFile.json"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"StartENG\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
@@ -1752,6 +1651,130 @@
             }
           ],
           "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Event1",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"text\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "DialogueBox",
+                    "=",
+                    "DialogueTree::ClippedLineText()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DialogueTree::ScrollClippedText"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "TalkBar",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "DialogueTree::GoToNextLine"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "disabled": false,
@@ -1797,313 +1820,6 @@
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Event1",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "TalkBar",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MouseButtonReleased"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "DialogueBox",
-                        "=",
-                        "\"I'm excited for lunch!\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "TalkBar",
-                            "",
-                            "",
-                            ""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "MouseButtonReleased"
-                              },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "DialogueBox",
-                                "=",
-                                "\"Elena: Shall we order then?\""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Montre"
-                              },
-                              "parameters": [
-                                "Waitress",
-                                ""
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": [
-                            {
-                              "disabled": false,
-                              "folded": false,
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "SourisSurObjet"
-                                  },
-                                  "parameters": [
-                                    "TalkBar",
-                                    "",
-                                    "",
-                                    ""
-                                  ],
-                                  "subInstructions": []
-                                }
-                              ],
-                              "actions": [],
-                              "events": [
-                                {
-                                  "disabled": false,
-                                  "folded": false,
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "inverted": false,
-                                        "value": "MouseButtonReleased"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "Left"
-                                      ],
-                                      "subInstructions": []
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "inverted": false,
-                                        "value": "Scene"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "\"Restaurant\"",
-                                        ""
-                                      ],
-                                      "subInstructions": []
-                                    }
-                                  ],
-                                  "events": []
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "En",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "IsMouseWheelScrollingDown"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "En",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "IsMouseWheelScrollingUp"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "En",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
           "events": []
         }
       ],
@@ -2154,6 +1870,7 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
+        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
@@ -2364,6 +2081,7 @@
           "variables": [
             {
               "name": "price",
+              "type": "string",
               "value": "3"
             }
           ],
@@ -2408,6 +2126,7 @@
           "variables": [
             {
               "name": "price",
+              "type": "string",
               "value": "5"
             }
           ],
@@ -2452,6 +2171,7 @@
           "variables": [
             {
               "name": "price",
+              "type": "string",
               "value": "6"
             }
           ],
@@ -2572,6 +2292,7 @@
           "variables": [
             {
               "name": "price",
+              "type": "string",
               "value": "1"
             }
           ],
@@ -3202,6 +2923,7 @@
         "ellipsis",
         "movement"
       ],
+      "dependencies": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -3215,6 +2937,7 @@
               "fullName": "",
               "functionType": "Action",
               "name": "doStepPreEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {

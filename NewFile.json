@@ -2,40 +2,120 @@
 	{
 		"title": "StartENG",
 		"tags": "",
-		"body": "Elena: Hey, I am so happy to see you here! [[Answer:Node|Node]]",
+		"body": "Elena: Hey, I am so happy to see you here! [[Answer:Node|ENG1]]",
 		"position": {
-			"x": -197,
-			"y": -155
+			"x": -203,
+			"y": -322
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Node",
+		"title": "ENG1",
 		"tags": "",
-		"body": "Elena: Thanks for coming! Comida con Amor is my favorite restaurant!",
+		"body": "Elena: Thanks for coming! Comida con Amor is my favorite restaurant! [[Answer:ENG2|ENG2]]",
 		"position": {
-			"x": -210,
-			"y": 93
+			"x": -204,
+			"y": -28
 		},
 		"colorID": 0
 	},
 	{
 		"title": "StartESP",
 		"tags": "",
-		"body": "Empty Text [[Answer:Node_4|Node_4]]",
+		"body": "Elena: ¡Hola, estoy tan feliz de verte aquí! [[Answer:Node_4|ESP1]]",
 		"position": {
-			"x": 395,
-			"y": -159
+			"x": 248,
+			"y": -320
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Node_4",
+		"title": "ESP1",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Gracias por venir, Comida con Amor es mi restaurante favorito. [[Answer:ESP2|ESP2]]",
 		"position": {
-			"x": 407,
-			"y": 80
+			"x": 245,
+			"y": -35
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Elena: Are you ready to order?\n\n[[Yes|ENG3YesReadyToOrder]]\n\n[[No|ENG3NoNotReadyToOrde]]",
+		"position": {
+			"x": -206,
+			"y": 231
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP2",
+		"tags": "",
+		"body": "Elena: ¿Estás lista a ordenar?\n[[ Si |ESP3YesReadyToOrdern]] \n[[ No |ESP3NoNotReadyToOrder]]",
+		"position": {
+			"x": 247,
+			"y": 229
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG3YesReadyToOrder",
+		"tags": "",
+		"body": "Elena: Okay, me too! [[Answer:Eng4|Eng4]]",
+		"position": {
+			"x": -390,
+			"y": 506
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG3NoNotReadyToOrde",
+		"tags": "",
+		"body": "Elena: They’ll bring us a menu. [[Answer:Eng4|Eng4]]",
+		"position": {
+			"x": -121,
+			"y": 509
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP3NoNotReadyToOrder",
+		"tags": "",
+		"body": "Elena: Nos traerán un menú. [[Answer:ESP4|ESP4]]",
+		"position": {
+			"x": 405,
+			"y": 506
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP3YesReadyToOrdern",
+		"tags": "",
+		"body": "Elena: ¡Okay yo también! [[Answer:ESP4|ESP4]]",
+		"position": {
+			"x": 165,
+			"y": 505
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eng4",
+		"tags": "",
+		"body": "Waitress: Sorry for the wait, here are some menus",
+		"position": {
+			"x": -278,
+			"y": 769
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP4",
+		"tags": "",
+		"body": "Camarera: Perdón por la espera, aquí hay algunos menús.",
+		"position": {
+			"x": 299,
+			"y": 767
 		},
 		"colorID": 0
 	}
