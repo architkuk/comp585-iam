@@ -1,11 +1,11 @@
 [
 	{
-		"title": "Start",
+		"title": "StartENG",
 		"tags": "",
 		"body": "Elena: Hey, I am so happy to see you here! [[Answer:Node|Node]]",
 		"position": {
-			"x": 169,
-			"y": 33
+			"x": -197,
+			"y": -155
 		},
 		"colorID": 0
 	},
@@ -14,8 +14,28 @@
 		"tags": "",
 		"body": "Elena: Thanks for coming! Comida con Amor is my favorite restaurant!",
 		"position": {
-			"x": 412,
-			"y": 37
+			"x": -210,
+			"y": 93
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartESP",
+		"tags": "",
+		"body": "Empty Text [[Answer:Node_4|Node_4]]",
+		"position": {
+			"x": 395,
+			"y": -159
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node_4",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 407,
+			"y": 80
 		},
 		"colorID": 0
 	}
