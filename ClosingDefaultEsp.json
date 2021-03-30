@@ -1,0 +1,52 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Elena: Wow estoy tan llena!  \n\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -209,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "Tu: La comida estuvo muy buena.\n[[Answer:ENG2|ENG2]]",
+		"position": {
+			"x": -208,
+			"y": -32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Elena: ¡Fue! Volvamos pronto.[[Answer:Eng3|Eng3]]",
+		"position": {
+			"x": -212,
+			"y": 225
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eng3",
+		"tags": "",
+		"body": "Tu: ¡Por supuesto! Te veré más tarde.. [[Answer:Eng4|Eng4]]",
+		"position": {
+			"x": -214,
+			"y": 480
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eng4",
+		"tags": "",
+		"body": "Elena: ¡Chau!",
+		"position": {
+			"x": -215,
+			"y": 751
+		},
+		"colorID": 0
+	}
+]

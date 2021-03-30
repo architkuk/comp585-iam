@@ -1,0 +1,52 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Elena: Wow, I’m so full!  \n\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -209,
+			"y": -331
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "You: The food was really good.\r\n [[Answer:ENG2|ENG2]]",
+		"position": {
+			"x": -206,
+			"y": -30
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Elena: It was! Let’s come again soon. [[Answer:Eng3|Eng3]]",
+		"position": {
+			"x": -210,
+			"y": 227
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eng3",
+		"tags": "",
+		"body": "You: Sure! I’ll see you later. [[Answer:Eng4|Eng4]]",
+		"position": {
+			"x": -210,
+			"y": 482
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eng4",
+		"tags": "",
+		"body": "Elena: Bye!",
+		"position": {
+			"x": -213,
+			"y": 753
+		},
+		"colorID": 0
+	}
+]

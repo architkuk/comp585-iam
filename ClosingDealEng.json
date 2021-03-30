@@ -1,0 +1,32 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Elena: Wow, we got a really good deal! We should come again soon.\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -209,
+			"y": -331
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "Player: Sure! I’ll see you later.\n[[Answer:ENG2|ENG2]]",
+		"position": {
+			"x": -208,
+			"y": -30
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Elena: Bye!\n[[Answer:Eng3|Eng3]]",
+		"position": {
+			"x": -212,
+			"y": 225
+		},
+		"colorID": 0
+	}
+]

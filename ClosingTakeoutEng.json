@@ -1,0 +1,22 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Waitress: Here is your to-go order, have a nice day!\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -211,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "You: Thank you, you too!",
+		"position": {
+			"x": -208,
+			"y": -31
+		},
+		"colorID": 0
+	}
+]
