@@ -514,12 +514,58 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
+                    "value": "ModVarGlobalTxt"
                   },
                   "parameters": [
                     "AppLanguage",
                     "=",
-                    "\"Spanish\""
+                    "\"English\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"exampleSettings\"",
+                    "\"Language\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"exampleSettings\"",
+                    "\"Language\"",
+                    "",
+                    "LoadString"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "AppLanguage",
+                    "=",
+                    "VariableString(LoadString)"
                   ],
                   "subInstructions": []
                 }
@@ -1600,7 +1646,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarGlobal"
+                    "value": "VarGlobalTxt"
                   },
                   "parameters": [
                     "AppLanguage",
@@ -1632,7 +1678,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarGlobal"
+                    "value": "VarGlobalTxt"
                   },
                   "parameters": [
                     "AppLanguage",
@@ -3056,7 +3102,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
+                    "value": "ModVarGlobalTxt"
                   },
                   "parameters": [
                     "AppLanguage",
@@ -3126,7 +3172,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
+                    "value": "ModVarGlobalTxt"
                   },
                   "parameters": [
                     "AppLanguage",
