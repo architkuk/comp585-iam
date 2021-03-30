@@ -2,10 +2,10 @@
 	{
 		"title": "StartENG",
 		"tags": "",
-		"body": "Elena: Hey, I am so happy to see you here!\n\n\n[[Answer:Node|ENG1]]",
+		"body": "Elena: Hey, I am so happy to see you here!\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif>> \n\n[[Answer:Node|ENG1]]",
 		"position": {
-			"x": -206,
-			"y": -329
+			"x": -208,
+			"y": -331
 		},
 		"colorID": 0
 	},
