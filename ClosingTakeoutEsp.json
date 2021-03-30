@@ -1,0 +1,22 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Camarera: Aquí tienes tu pedido para llevar, ¡que tengas un buen día!\r\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -213,
+			"y": -335
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "Tu: ¡Gracias a ti también!",
+		"position": {
+			"x": -210,
+			"y": -33
+		},
+		"colorID": 0
+	}
+]

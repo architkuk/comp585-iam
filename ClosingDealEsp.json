@@ -1,0 +1,32 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Elena: ¡Vaya, tenemos un buen trato! Deberíamos volver pronto.\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -211,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "Tu: ¡Por supuesto! Te veré más tarde.\n[[Answer:ENG2|ENG2]]",
+		"position": {
+			"x": -210,
+			"y": -32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Elena: ¡Chau!\n[[Answer:Eng3|Eng3]]",
+		"position": {
+			"x": -212,
+			"y": 223
+		},
+		"colorID": 0
+	}
+]
