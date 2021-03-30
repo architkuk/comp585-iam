@@ -369,7 +369,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5
+        "zoomFactor": 0.6700000000000003
       },
       "objectsGroups": [
         {
@@ -893,7 +893,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.802
+        "zoomFactor": 0.7420000000000002
       },
       "objectsGroups": [],
       "variables": [],
@@ -906,7 +906,7 @@
           "locked": false,
           "name": "Map",
           "persistentUuid": "11f0f415-7860-4859-9912-35bd3f90ca93",
-          "width": 961,
+          "width": 802,
           "x": -1,
           "y": 1,
           "zOrder": 1,
@@ -922,8 +922,8 @@
           "locked": false,
           "name": "Restaurant",
           "persistentUuid": "31f6cd6b-acc6-417c-b147-342ced87b1d4",
-          "width": 311,
-          "x": 624,
+          "width": 265,
+          "x": 518,
           "y": 344,
           "zOrder": 2,
           "numberProperties": [],
@@ -939,8 +939,8 @@
           "name": "restLabel",
           "persistentUuid": "b77a9181-e7ab-4a5e-9b3e-695f5aeae158",
           "width": 0,
-          "x": 721,
-          "y": 385,
+          "x": 591,
+          "y": 389,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1367,6 +1367,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "dialogueOptions",
+          "persistentUuid": "67ea49cf-a8e7-493e-a1a2-8747567fcea2",
+          "width": 0,
+          "x": 71,
+          "y": 528,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1741,6 +1757,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "dialogueOptions",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -2019,6 +2054,189 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogueOptions"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogueOptions",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::SelectOption"
+                  },
+                  "parameters": [
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Down"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::SelectOption"
+                  },
+                  "parameters": [
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::ConfirmSelectOption"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::HasSelectedOptionChanged"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "dialogueOptions",
+                    "=",
+                    "DialogueTree::VerticalOptionsList(\">\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -3125,9 +3343,9 @@
         "gridR": 158,
         "gridType": "rectangular",
         "gridWidth": 32,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [],
