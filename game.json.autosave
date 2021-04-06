@@ -2146,7 +2146,7 @@
                                 "value": "DialogueTree::CurrentBranchTitle"
                               },
                               "parameters": [
-                                "\"Eng4\""
+                                "\"ESP4\""
                               ],
                               "subInstructions": []
                             }
@@ -3512,43 +3512,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.5799999999999998
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "CheckButton",
-          "persistentUuid": "91be7513-47a4-42ef-8a76-215efffed83e",
-          "width": 64,
-          "x": 128,
-          "y": 384,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "CheckButton",
-          "persistentUuid": "e5549dac-4cde-4bff-85dc-70e56b744a8c",
-          "width": 64,
-          "x": 129,
-          "y": 257,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -3558,8 +3526,8 @@
           "name": "ENG2",
           "persistentUuid": "8828a445-8356-42c0-b76e-bc84fa6d4b5c",
           "width": 0,
-          "x": 224,
-          "y": 384,
+          "x": 145,
+          "y": 374,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3574,8 +3542,8 @@
           "name": "ESP2",
           "persistentUuid": "0682f722-80c6-4fde-8f7d-d59b05b1505c",
           "width": 0,
-          "x": 222,
-          "y": 252,
+          "x": 140,
+          "y": 222,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
