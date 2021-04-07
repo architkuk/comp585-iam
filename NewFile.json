@@ -102,20 +102,40 @@
 	{
 		"title": "Eng4",
 		"tags": "",
-		"body": "Waitress: Sorry for the wait, here are some menus",
+		"body": "Waitress: Sorry for the wait, here are some menus [[Answer:ENGend|ENGend]]",
 		"position": {
-			"x": -278,
-			"y": 769
+			"x": -279,
+			"y": 768
 		},
 		"colorID": 0
 	},
 	{
 		"title": "ESP4",
 		"tags": "",
-		"body": "Camarera: Perdón por la espera, aquí hay algunos menús.",
+		"body": "Camarera: Perdón por la espera, aquí hay algunos menús. [[Answer:ESPend|ESPend]]",
 		"position": {
 			"x": 299,
 			"y": 767
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENGend",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -279,
+			"y": 1003
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESPend",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 294,
+			"y": 1008
 		},
 		"colorID": 0
 	}
