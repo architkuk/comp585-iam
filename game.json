@@ -3778,7 +3778,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6279999999999992
+        "zoomFactor": 0.4824999999999991
       },
       "objectsGroups": [],
       "variables": [],
@@ -4252,7 +4252,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_3_4",
+          "name": "Caesar_Salad",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Caesar_Salad.png",
@@ -4267,7 +4267,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_3_5",
+          "name": "Grilled_Corn",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Grilled_Corn.png",
@@ -4282,7 +4282,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Drink_3_2",
+          "name": "Mango_Aguas_frescas",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Mango_Frescas.png",
@@ -4297,22 +4297,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Drink_3_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Lavender_Lemonade_.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_3_1",
+          "name": "Natilla",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Natilla.png",
@@ -4327,25 +4312,10 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_3_2",
+          "name": "Fruit_salad",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Fruit_Salad.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_3_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets\\food\\brownie.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -5746,7 +5716,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_3_4",
+                    "Caesar_Salad",
                     "64",
                     "256",
                     ""
@@ -5760,7 +5730,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_3_5",
+                    "Grilled_Corn",
                     "64",
                     "320",
                     ""
@@ -5788,7 +5758,7 @@
                   },
                   "parameters": [
                     "",
-                    "Drink_3_2",
+                    "Mango_Aguas_frescas",
                     "128",
                     "128",
                     ""
@@ -5802,7 +5772,7 @@
                   },
                   "parameters": [
                     "",
-                    "Drink_3_3",
+                    "Lavender_lemonade",
                     "128",
                     "192",
                     ""
@@ -5816,7 +5786,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_3_1",
+                    "Natilla",
                     "192",
                     "64",
                     ""
@@ -5830,7 +5800,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_3_2",
+                    "Fruit_salad",
                     "192",
                     "128",
                     ""
@@ -5844,7 +5814,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_3_3",
+                    "Brownie",
                     "192",
                     "192",
                     ""
@@ -7371,7 +7341,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Churros",
+                "Burritos",
                 "",
                 "",
                 ""
@@ -7388,7 +7358,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Churros\""
+                "\"Burritos\""
               ],
               "subInstructions": []
             },
@@ -7400,7 +7370,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$5.00\""
+                "\"$8.00\""
               ],
               "subInstructions": []
             },
@@ -7412,7 +7382,7 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "16"
+                "7"
               ],
               "subInstructions": []
             }
@@ -7430,7 +7400,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Churros",
+                "Arroz_con_Pollo",
                 "",
                 "",
                 ""
@@ -7447,7 +7417,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Churros\""
+                "\"Rice with Chicken\""
               ],
               "subInstructions": []
             },
@@ -7459,7 +7429,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$5.00\""
+                "\"$7.00\""
               ],
               "subInstructions": []
             },
@@ -7471,7 +7441,7 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "16"
+                "11"
               ],
               "subInstructions": []
             }
@@ -7489,7 +7459,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Churros",
+                "Caesar_Salad",
                 "",
                 "",
                 ""
@@ -7506,7 +7476,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Churros\""
+                "\"Caesar Salad\""
               ],
               "subInstructions": []
             },
@@ -7518,7 +7488,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$5.00\""
+                "\"$6.00\""
               ],
               "subInstructions": []
             },
@@ -7530,7 +7500,7 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "16"
+                "17"
               ],
               "subInstructions": []
             }
@@ -7548,7 +7518,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Churros",
+                "Grilled_Corn",
                 "",
                 "",
                 ""
@@ -7565,7 +7535,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Churros\""
+                "\"Grilled Corn\""
               ],
               "subInstructions": []
             },
@@ -7589,7 +7559,184 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "16"
+                "26"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Mango_Aguas_frescas",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Mango Pineapple Frescas\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$3.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "34"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Natilla",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Natilla\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$2.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "43"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Fruit_salad",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Fruit Salad\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$3.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "42"
               ],
               "subInstructions": []
             }
