@@ -3634,7 +3634,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5115203120343347
+        "zoomFactor": 0.6010203120343335
       },
       "objectsGroups": [],
       "variables": [],
@@ -3908,7 +3908,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_2_1",
+          "name": "Mangu",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Mangu.png",
@@ -3923,7 +3923,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_2_2",
+          "name": "Baleadas",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Baleadas.png",
@@ -3938,7 +3938,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_2_3",
+          "name": "Fried_fish",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Fried fish.png",
@@ -3953,7 +3953,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_2_4",
+          "name": "Quinoa_Salad",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Quinoa_Salad.png",
@@ -4911,7 +4911,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_2_1",
+                    "Mangu",
                     "64",
                     "64",
                     "2"
@@ -4925,7 +4925,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_2_2",
+                    "Baleadas",
                     "64",
                     "128",
                     ""
@@ -4939,7 +4939,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_2_3",
+                    "Fried_fish",
                     "64",
                     "192",
                     ""
@@ -4953,7 +4953,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_2_4",
+                    "Quinoa_Salad",
                     "64",
                     "256",
                     ""
@@ -5988,7 +5988,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Lavender_lemonade",
+                "Tres_Leches",
                 "",
                 "",
                 ""
@@ -6005,7 +6005,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Lavender Lemonade\""
+                "\"Tres Leches\""
               ],
               "subInstructions": []
             },
@@ -6017,7 +6017,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$3.00\""
+                "\"$2.00\""
               ],
               "subInstructions": []
             },
@@ -6029,7 +6029,7 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "36"
+                "40"
               ],
               "subInstructions": []
             },
@@ -6059,7 +6059,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Lavender_lemonade",
+                "Mangu",
                 "",
                 "",
                 ""
@@ -6076,7 +6076,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Lavender Lemonade\""
+                "\"Mangu\""
               ],
               "subInstructions": []
             },
@@ -6088,7 +6088,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$3.00\""
+                "\"$9.00\""
               ],
               "subInstructions": []
             },
@@ -6100,7 +6100,149 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "36"
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodDescriptionEng",
+                "=",
+                "\"Mangu with salami and fried cheese\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Baleadas",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Baleadas\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$7.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodDescriptionEng",
+                "=",
+                "\"Tortilla with refried beans and sour cream\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Fried_fish",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Fried Fish\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$9.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "12"
               ],
               "subInstructions": []
             },
@@ -6130,7 +6272,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Lavender_lemonade",
+                "Quinoa_Salad",
                 "",
                 "",
                 ""
@@ -6147,7 +6289,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Lavender Lemonade\""
+                "\"Quinoa Salad\""
               ],
               "subInstructions": []
             },
@@ -6159,7 +6301,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$3.00\""
+                "\"$7.00\""
               ],
               "subInstructions": []
             },
@@ -6171,7 +6313,7 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "36"
+                "16"
               ],
               "subInstructions": []
             },
@@ -6194,142 +6336,56 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Lavender_lemonade",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "FoodLabelEng",
-                "=",
-                "\"Lavender Lemonade\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "FoodPrice",
-                "=",
-                "\"$3.00\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "FoodImage",
-                "=",
-                "36"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "FoodDescriptionEng",
-                "=",
-                "\"\""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Lavender_lemonade",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "FoodLabelEng",
-                "=",
-                "\"Lavender Lemonade\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "FoodPrice",
-                "=",
-                "\"$3.00\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "FoodImage",
-                "=",
-                "36"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "FoodDescriptionEng",
-                "=",
-                "\"\""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
