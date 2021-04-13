@@ -705,112 +705,6 @@
         "name": "assets\\food\\Huevos_Rancheros.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-<<<<<<< Updated upstream
-        "file": "assets/food/Baleadas.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Baleadas.png",
-=======
-        "file": "assets/food/Test.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Test.png",
->>>>>>> Stashed changes
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-<<<<<<< Updated upstream
-        "file": "assets/food/Pupusas.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Pupusas.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/Burritos.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Burritos.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/chickandrice.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\chickandrice.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/Fried fish.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Fried fish.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/hamburger.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\hamburger.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/Tomato_Kale_Salad.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Tomato_Kale_Salad.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/Quinoa_Salad.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Quinoa_Salad.png",
-        "smoothed": true,
-        "userAdded": false
-=======
-        "file": "assets/food/Arroz_Con_Leche.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Arroz_Con_Leche.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/Natilla.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Natilla.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/food/Burritos.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Burritos.png",
-        "smoothed": true,
-        "userAdded": true
->>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -3758,7 +3652,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5305203120343331
+        "zoomFactor": 0.4810203120343334
       },
       "objectsGroups": [],
       "variables": [],
@@ -3810,11 +3704,7 @@
           "numberProperties": [
             {
               "name": "animation",
-<<<<<<< Updated upstream
               "value": 1
-=======
-              "value": 0
->>>>>>> Stashed changes
             }
           ],
           "stringProperties": [],
@@ -4116,7 +4006,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "coconut_and_lime",
+          "name": "Drink_2_1",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Coconut_and_Lime.png",
@@ -4131,7 +4021,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "milkshake",
+          "name": "Drink_2_2",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Milkshake.png",
@@ -4146,7 +4036,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Natilla",
+          "name": "Dessert_2_1",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Arroz_Con_Leche.png",
@@ -4161,7 +4051,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Churros",
+          "name": "Dessert_2_2",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Churros.png",
@@ -4176,7 +4066,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Coconut_Icecream",
+          "name": "Dessert_2_3",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Coconut_Icecream.png",
@@ -4191,7 +4081,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Huevos_Rancheros",
+          "name": "Entree_3_1",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Huevos_Rancheros.png",
@@ -4206,7 +4096,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Burritos",
+          "name": "Entree_3_2",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Burritos.png",
@@ -4221,7 +4111,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Chicken_and_rice",
+          "name": "Entree_3_3",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/chickandrice.png",
@@ -4236,7 +4126,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Caesar_salad",
+          "name": "Entree_3_4",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Caesar_Salad.png",
@@ -4251,7 +4141,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Grilled_corn",
+          "name": "Entree_3_5",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Grilled_Corn.png",
@@ -4266,7 +4156,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Mango_frescas",
+          "name": "Drink_3_2",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Mango_Frescas.png",
@@ -4281,10 +4171,10 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Arroz_con_leche",
+          "name": "Drink_3_3",
           "rightMargin": 0,
           "tags": "",
-          "texture": "assets\\food\\Arroz_Con_Leche.png",
+          "texture": "assets/food/Lavender_Lemonade_.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -4296,7 +4186,22 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Fruit_Salad",
+          "name": "Dessert_3_1",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "assets/food/Natilla.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "name": "Dessert_3_2",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Fruit_Salad.png",
@@ -4427,7 +4332,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Test.png",
+                      "image": "NewFile-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4563,7 +4468,7 @@
               ]
             },
             {
-              "name": "pupusas",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4572,7 +4477,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Pupusas.png",
+                      "image": "assets\\food\\Aguas_Frescas_(mango_Pineapple).jpg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4621,7 +4526,7 @@
               ]
             },
             {
-              "name": "burritos",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4630,7 +4535,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Burritos.png",
+                      "image": "assets\\food\\Aguas_Frescas_(mango_Pineapple).jpg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4733,202 +4638,6 @@
                       "customCollisionMask": []
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "name": "Arroz con pollo",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\chickandrice.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Pescado Frito",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Fried fish.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "chicken sandwich",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            },
-            {
-              "name": "Hamburger",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\hamburger.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Tomato and Kale salad",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Tomato_Kale_Salad.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Quinoa Salad",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Quinoa_Salad.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Caesar Sala",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Caesar_Salad.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
                 }
               ]
             }
@@ -5295,7 +5004,7 @@
                   },
                   "parameters": [
                     "",
-                    "coconut_and_lime",
+                    "Drink_2_1",
                     "128",
                     "64",
                     ""
@@ -5309,7 +5018,7 @@
                   },
                   "parameters": [
                     "",
-                    "milkshake",
+                    "Drink_2_2",
                     "128",
                     "128",
                     ""
@@ -5337,7 +5046,7 @@
                   },
                   "parameters": [
                     "",
-                    "Natilla",
+                    "Dessert_2_1",
                     "192",
                     "64",
                     ""
@@ -5351,7 +5060,7 @@
                   },
                   "parameters": [
                     "",
-                    "Churros",
+                    "Dessert_2_2",
                     "192",
                     "128",
                     ""
@@ -5365,7 +5074,7 @@
                   },
                   "parameters": [
                     "",
-                    "Coconut_Icecream",
+                    "Dessert_2_3",
                     "192",
                     "192",
                     ""
@@ -5415,7 +5124,7 @@
                   },
                   "parameters": [
                     "",
-                    "Huevos_Rancheros",
+                    "Entree_3_1",
                     "64",
                     "64",
                     "2"
@@ -5429,7 +5138,7 @@
                   },
                   "parameters": [
                     "",
-                    "Burritos",
+                    "Entree_3_2",
                     "64",
                     "128",
                     ""
@@ -5443,7 +5152,7 @@
                   },
                   "parameters": [
                     "",
-                    "Chicken_and_rice",
+                    "Entree_3_3",
                     "64",
                     "192",
                     ""
@@ -5457,7 +5166,7 @@
                   },
                   "parameters": [
                     "",
-                    "Caesar_salad",
+                    "Entree_3_4",
                     "64",
                     "256",
                     ""
@@ -5471,7 +5180,7 @@
                   },
                   "parameters": [
                     "",
-                    "Grilled_corn",
+                    "Entree_3_5",
                     "64",
                     "320",
                     ""
@@ -5499,7 +5208,7 @@
                   },
                   "parameters": [
                     "",
-                    "Mango_frescas",
+                    "Drink_3_2",
                     "128",
                     "128",
                     ""
@@ -5513,7 +5222,7 @@
                   },
                   "parameters": [
                     "",
-                    "Lavender_lemonade",
+                    "Drink_3_3",
                     "128",
                     "192",
                     ""
@@ -5527,7 +5236,7 @@
                   },
                   "parameters": [
                     "",
-                    "Arroz_con_leche",
+                    "Dessert_3_1",
                     "192",
                     "64",
                     ""
@@ -5541,7 +5250,7 @@
                   },
                   "parameters": [
                     "",
-                    "Fruit_Salad",
+                    "Dessert_3_2",
                     "192",
                     "128",
                     ""
@@ -7093,17 +6802,6 @@
               "width": 0
             }
           ],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
-          "followBaseLayerCamera": true,
-          "isLightingLayer": true,
-          "name": "Lighting",
-          "visibility": true,
-          "cameras": [],
           "effects": []
         }
       ],
