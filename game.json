@@ -708,15 +708,23 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "assets/food/Baleadas.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\food\\Baleadas.png",
+=======
+        "file": "assets/food/Test.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Test.png",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "assets/food/Pupusas.png",
         "kind": "image",
         "metadata": "",
@@ -777,6 +785,32 @@
         "name": "assets\\food\\Quinoa_Salad.png",
         "smoothed": true,
         "userAdded": false
+=======
+        "file": "assets/food/Arroz_Con_Leche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Arroz_Con_Leche.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/Natilla.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Natilla.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/Burritos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Burritos.png",
+        "smoothed": true,
+        "userAdded": true
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -3724,7 +3758,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.4810203120343334
+        "zoomFactor": 0.5305203120343331
       },
       "objectsGroups": [],
       "variables": [],
@@ -3776,7 +3810,11 @@
           "numberProperties": [
             {
               "name": "animation",
+<<<<<<< Updated upstream
               "value": 1
+=======
+              "value": 0
+>>>>>>> Stashed changes
             }
           ],
           "stringProperties": [],
@@ -4078,7 +4116,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Drink_2_1",
+          "name": "coconut_and_lime",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Coconut_and_Lime.png",
@@ -4093,7 +4131,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Drink_2_2",
+          "name": "milkshake",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Milkshake.png",
@@ -4108,7 +4146,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_2_1",
+          "name": "Natilla",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Arroz_Con_Leche.png",
@@ -4123,7 +4161,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_2_2",
+          "name": "Churros",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Churros.png",
@@ -4138,7 +4176,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_2_3",
+          "name": "Coconut_Icecream",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Coconut_Icecream.png",
@@ -4153,7 +4191,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_3_1",
+          "name": "Huevos_Rancheros",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Huevos_Rancheros.png",
@@ -4168,7 +4206,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_3_2",
+          "name": "Burritos",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Burritos.png",
@@ -4183,7 +4221,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_3_3",
+          "name": "Chicken_and_rice",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/chickandrice.png",
@@ -4198,7 +4236,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_3_4",
+          "name": "Caesar_salad",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Caesar_Salad.png",
@@ -4213,7 +4251,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_3_5",
+          "name": "Grilled_corn",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Grilled_Corn.png",
@@ -4228,7 +4266,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Drink_3_2",
+          "name": "Mango_frescas",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Mango_Frescas.png",
@@ -4243,10 +4281,10 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Drink_3_3",
+          "name": "Arroz_con_leche",
           "rightMargin": 0,
           "tags": "",
-          "texture": "assets/food/Lavender_Lemonade_.png",
+          "texture": "assets\\food\\Arroz_Con_Leche.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -4258,22 +4296,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_3_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Natilla.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_3_2",
+          "name": "Fruit_Salad",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Fruit_Salad.png",
@@ -4404,7 +4427,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewFile-1-0.png",
+                      "image": "assets\\food\\Test.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5272,7 +5295,7 @@
                   },
                   "parameters": [
                     "",
-                    "Drink_2_1",
+                    "coconut_and_lime",
                     "128",
                     "64",
                     ""
@@ -5286,7 +5309,7 @@
                   },
                   "parameters": [
                     "",
-                    "Drink_2_2",
+                    "milkshake",
                     "128",
                     "128",
                     ""
@@ -5314,7 +5337,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_2_1",
+                    "Natilla",
                     "192",
                     "64",
                     ""
@@ -5328,7 +5351,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_2_2",
+                    "Churros",
                     "192",
                     "128",
                     ""
@@ -5342,7 +5365,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_2_3",
+                    "Coconut_Icecream",
                     "192",
                     "192",
                     ""
@@ -5392,7 +5415,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_3_1",
+                    "Huevos_Rancheros",
                     "64",
                     "64",
                     "2"
@@ -5406,7 +5429,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_3_2",
+                    "Burritos",
                     "64",
                     "128",
                     ""
@@ -5420,7 +5443,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_3_3",
+                    "Chicken_and_rice",
                     "64",
                     "192",
                     ""
@@ -5434,7 +5457,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_3_4",
+                    "Caesar_salad",
                     "64",
                     "256",
                     ""
@@ -5448,7 +5471,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_3_5",
+                    "Grilled_corn",
                     "64",
                     "320",
                     ""
@@ -5476,7 +5499,7 @@
                   },
                   "parameters": [
                     "",
-                    "Drink_3_2",
+                    "Mango_frescas",
                     "128",
                     "128",
                     ""
@@ -5490,7 +5513,7 @@
                   },
                   "parameters": [
                     "",
-                    "Drink_3_3",
+                    "Lavender_lemonade",
                     "128",
                     "192",
                     ""
@@ -5504,7 +5527,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_3_1",
+                    "Arroz_con_leche",
                     "192",
                     "64",
                     ""
@@ -5518,7 +5541,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_3_2",
+                    "Fruit_Salad",
                     "192",
                     "128",
                     ""
