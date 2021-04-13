@@ -921,6 +921,105 @@
         "name": "assets\\food\\water-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/milkshake-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\milkshake-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/tomatoandkalesalad-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\tomatoandkalesalad-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/quinoasalad-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\quinoasalad-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/caesarsalad-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\caesarsalad-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/fishsoup-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\fishsoup-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/lentilsoup-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\lentilsoup-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/blackbeanstew-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\blackbeanstew-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/orange_juice-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\orange_juice-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/aguas_frescas_mango_pineapple-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\aguas_frescas_mango_pineapple-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/aguas_frescas_coconut_lime-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\aguas_frescas_coconut_lime-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/lavendar_lemonade-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\lavendar_lemonade-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4931,11 +5030,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Tomato_Kale_Salad.png",
+                      "image": "assets\\food\\tomatoandkalesalad-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4960,11 +5059,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Quinoa_Salad.png",
+                      "image": "assets\\food\\quinoasalad-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4989,11 +5088,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Caesar_Salad.png",
+                      "image": "assets\\food\\caesarsalad-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5029,11 +5128,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Fish_Soup.png",
+                      "image": "assets\\food\\fishsoup-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5058,11 +5157,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Lentil_Soup.png",
+                      "image": "assets\\food\\lentilsoup-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5087,11 +5186,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Black_Bean_Stew.png",
+                      "image": "assets\\food\\blackbeanstew-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5316,11 +5415,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Orange_Juice.png",
+                      "image": "assets\\food\\orange_juice-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5356,11 +5455,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Aguas_Frescas_(mango_Pineapple).jpg.png",
+                      "image": "assets\\food\\aguas_frescas_mango_pineapple-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5385,11 +5484,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Aguas_Frescas_(coconut_Lime).jpg.png",
+                      "image": "assets\\food\\aguas_frescas_coconut_lime-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5414,11 +5513,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Lavender_Lemonade_.png",
+                      "image": "assets\\food\\lavendar_lemonade-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5443,11 +5542,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Milkshake.png",
+                      "image": "assets\\food\\milkshake-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
