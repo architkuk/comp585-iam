@@ -636,15 +636,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/food/Water.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\food\\Water.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/food/Arepa_Ham_and_Cheese.png",
         "kind": "image",
         "metadata": "",
@@ -903,6 +894,33 @@
         "name": "assets\\food\\Coconut_Icecream.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Water.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/water-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\water-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/water-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\water-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5269,11 +5287,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Water.png",
+                      "image": "assets\\food\\water-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
