@@ -3634,7 +3634,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.48152031203433493
+        "zoomFactor": 0.5115203120343347
       },
       "objectsGroups": [],
       "variables": [],
@@ -3863,7 +3863,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_1_1",
+          "name": "Flan",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Flan.png",
@@ -3878,7 +3878,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_1_2",
+          "name": "Brownie",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/brownie.png",
@@ -3893,7 +3893,7 @@
           "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Dessert_1_3",
+          "name": "Tres_Leches",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Tres_Leches.png",
@@ -4833,7 +4833,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_1_1",
+                    "Flan",
                     "192",
                     "64",
                     ""
@@ -4847,7 +4847,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_1_2",
+                    "Brownie",
                     "192",
                     "128",
                     ""
@@ -4861,7 +4861,7 @@
                   },
                   "parameters": [
                     "",
-                    "Dessert_1_3",
+                    "Tres_Leches",
                     "192",
                     "192",
                     ""
@@ -5846,7 +5846,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Lavender_lemonade",
+                "Flan",
                 "",
                 "",
                 ""
@@ -5863,7 +5863,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Lavender Lemonade\""
+                "\"Flan\""
               ],
               "subInstructions": []
             },
@@ -5875,7 +5875,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$3.00\""
+                "\"$2.00\""
               ],
               "subInstructions": []
             },
@@ -5887,7 +5887,7 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "36"
+                "38"
               ],
               "subInstructions": []
             },
@@ -5917,7 +5917,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Lavender_lemonade",
+                "Brownie",
                 "",
                 "",
                 ""
@@ -5934,7 +5934,7 @@
               "parameters": [
                 "FoodLabelEng",
                 "=",
-                "\"Lavender Lemonade\""
+                "\"Brownie\""
               ],
               "subInstructions": []
             },
@@ -5946,7 +5946,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$3.00\""
+                "\"$5.00\""
               ],
               "subInstructions": []
             },
@@ -5958,7 +5958,7 @@
               "parameters": [
                 "FoodImage",
                 "=",
-                "36"
+                "41"
               ],
               "subInstructions": []
             },
