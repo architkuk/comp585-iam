@@ -624,6 +624,33 @@
         "name": "assets\\food\\Arepa_Ham_and_Cheese.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "School.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "School.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Grocery_Store.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grocery_Store.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Home.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1181,7 +1208,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6820000000000002
+        "zoomFactor": 0.5200000000000002
       },
       "objectsGroups": [],
       "variables": [],
@@ -1243,9 +1270,9 @@
           "name": "schoolLabel",
           "persistentUuid": "7e7b5f20-be13-476a-982c-eaeb50c4a1d3",
           "width": 0,
-          "x": 659,
-          "y": 84,
-          "zOrder": 4,
+          "x": 648,
+          "y": 109,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1259,9 +1286,9 @@
           "name": "homeLabel",
           "persistentUuid": "69fb8acb-dca6-4a71-8ba5-0a94859caf43",
           "width": 0,
-          "x": 416,
-          "y": 243,
-          "zOrder": 5,
+          "x": 423,
+          "y": 264,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1275,9 +1302,57 @@
           "name": "storeLabel",
           "persistentUuid": "2b403937-262c-4bba-989b-7ef8f2c04ccf",
           "width": 0,
-          "x": 76,
-          "y": 420,
-          "zOrder": 6,
+          "x": 117,
+          "y": 415,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 304,
+          "layer": "",
+          "locked": false,
+          "name": "School",
+          "persistentUuid": "36faf96e-6db7-48b7-bed5-f984faa93e25",
+          "width": 401,
+          "x": 557,
+          "y": 7,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 225,
+          "layer": "",
+          "locked": false,
+          "name": "GroceryStore",
+          "persistentUuid": "ebed496e-2f01-442a-bff0-353c88252732",
+          "width": 282,
+          "x": 24,
+          "y": 358,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 294,
+          "layer": "",
+          "locked": false,
+          "name": "Home",
+          "persistentUuid": "7874c04b-704f-423e-9c24-91f6da048d61",
+          "width": 303,
+          "x": 322,
+          "y": 160,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1437,6 +1512,123 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "School",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "School.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GroceryStore",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Grocery_Store.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Home",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Home.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1610,7 +1802,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "schoolLabel",
+                "School",
                 "",
                 "",
                 ""
@@ -1701,7 +1893,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "homeLabel",
+                "Home",
                 "",
                 "",
                 ""
@@ -1792,7 +1984,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "storeLabel",
+                "GroceryStore",
                 "",
                 "",
                 ""
@@ -1883,7 +2075,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "schoolLabel",
+                "School",
                 "",
                 "",
                 ""
@@ -1918,7 +2110,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "homeLabel",
+                "Home",
                 "",
                 "",
                 ""
@@ -1953,7 +2145,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "storeLabel",
+                "GroceryStore",
                 "",
                 "",
                 ""
@@ -5028,6 +5220,15 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [
