@@ -3580,7 +3580,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5581850772492557
+        "zoomFactor": 0.4650203120343349
       },
       "objectsGroups": [],
       "variables": [],
@@ -3613,22 +3613,6 @@
           "x": 389,
           "y": 7,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 201,
-          "layer": "",
-          "locked": false,
-          "name": "WaterBig",
-          "persistentUuid": "d95a30f9-d018-48c3-87eb-bebffcf2bd01",
-          "width": 173,
-          "x": 411,
-          "y": 50,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3676,9 +3660,24 @@
         },
         {
           "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "name": "ArepaBig",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "assets/food/Arepa_Ham_and_Cheese.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 200,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
-          "name": "Entree_1_1",
+          "name": "Arepa",
           "rightMargin": 0,
           "tags": "",
           "texture": "assets/food/Arepa_Ham_and_Cheese.png",
@@ -3751,7 +3750,7 @@
         },
         {
           "bottomMargin": 0,
-          "height": 64,
+          "height": 200,
           "leftMargin": 0,
           "name": "WaterBig",
           "rightMargin": 0,
@@ -3760,7 +3759,7 @@
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
+          "width": 200,
           "variables": [],
           "behaviors": []
         },
@@ -4166,25 +4165,6 @@
           "behaviors": []
         },
         {
-          "bold": true,
-          "italic": false,
-          "name": "LabelWaterEng",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Water \n",
-          "font": "",
-          "characterSize": 45,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
           "bottomMargin": 0,
           "height": 425,
           "leftMargin": 0,
@@ -4217,16 +4197,16 @@
         {
           "bold": false,
           "italic": true,
-          "name": "LabelWater2Eng",
+          "name": "FoodDescriptionEng",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "A cool and refreshing glass of water",
+          "string": "",
           "font": "",
-          "characterSize": 30,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -4236,14 +4216,33 @@
         {
           "bold": true,
           "italic": false,
-          "name": "LabelWaterPrice",
+          "name": "FoodLabelEng",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "$1.00",
+          "string": "\n",
+          "font": "",
+          "characterSize": 45,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "FoodPrice",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
           "font": "",
           "characterSize": 35,
           "color": {
@@ -4282,6 +4281,48 @@
                 "RandomInRange(0, 2)\n"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "FoodLabelEng",
+                "580",
+                "45",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "FoodPrice",
+                "580",
+                "90",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "FoodDescriptionEng",
+                "580",
+                "145",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -4311,7 +4352,7 @@
                   },
                   "parameters": [
                     "",
-                    "Entree_1_1",
+                    "Arepa",
                     "64",
                     "64",
                     "2"
@@ -4880,42 +4921,36 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
+                "value": "TextObject::String"
               },
               "parameters": [
-                "",
-                "LabelWaterEng",
-                "580",
-                "45",
-                ""
+                "FoodLabelEng",
+                "=",
+                "\"Water\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
+                "value": "TextObject::String"
               },
               "parameters": [
-                "",
-                "LabelWater2Eng",
-                "580",
-                "145",
-                ""
+                "FoodPrice",
+                "=",
+                "\"$1.00\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
+                "value": "TextObject::String"
               },
               "parameters": [
-                "",
-                "LabelWaterPrice",
-                "580",
-                "90",
-                ""
+                "FoodDescriptionEng",
+                "=",
+                "\"A cool and refreshing glass of water.\""
               ],
               "subInstructions": []
             },
@@ -4940,8 +4975,73 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Arepa",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Arepa\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$7.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodDescriptionEng",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ArepaBig",
+                "390",
+                "10",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
