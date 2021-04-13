@@ -687,6 +687,24 @@
         "name": "assets\\food\\Aguas_Frescas_(mango_Pineapple).jpg.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/Mangu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Mangu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/Huevos_Rancheros.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Huevos_Rancheros.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3634,7 +3652,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6010203120343335
+        "zoomFactor": 0.4810203120343334
       },
       "objectsGroups": [],
       "variables": [],
@@ -4358,7 +4376,7 @@
               ]
             },
             {
-              "name": "water",
+              "name": "mangu",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4367,7 +4385,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Water.png",
+                      "image": "assets\\food\\Mangu.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4387,7 +4405,7 @@
               ]
             },
             {
-              "name": "4",
+              "name": "Huevos",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4396,7 +4414,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Aguas_Frescas_(mango_Pineapple).jpg.png",
+                      "image": "assets\\food\\Huevos_Rancheros.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
