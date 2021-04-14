@@ -1,0 +1,92 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Elena: How much money did you bring?\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif >> \n\n[[Answer:Node|ENG1_a]]\n<<  if $Budget1 == true >>\n[[Answer:Node|ENG1_a]]\n<<  endif >>\n\n<<  if $Budget2 == true >>\n[[Answer:Node|ENG1_b]]\n<< endif >> \n\n<< if $Budget3 == true >>\n[[Answer:Node|ENG1_c]]\n<< endif >>",
+		"position": {
+			"x": -240,
+			"y": -580
+		},
+		"colorID": 8
+	},
+	{
+		"title": "StartESP",
+		"tags": "",
+		"body": "Elena: ¿Cuánto dinero trajiste?\n\n<<  if $Budget == 14>>\n    [[ answer: Node |ESP1_a]] ]]\n<<  endif>>\n\n<<  if $Budget == 13>>\n    [[ answer: Node |ESP1_b]] ]]\n<<  else >>\n    [[ answer: Node |ESP1_c]] ]]\n<<  endif >>",
+		"position": {
+			"x": 273,
+			"y": -585
+		},
+		"colorID": 8
+	},
+	{
+		"title": "ENG1_a",
+		"tags": "",
+		"body": "You: I have $13.\n\n[[ answer: Node |ENG2]]",
+		"position": {
+			"x": -281,
+			"y": -168
+		},
+		"colorID": 8
+	},
+	{
+		"title": "ESP1_a",
+		"tags": "",
+		"body": "14",
+		"position": {
+			"x": 240,
+			"y": -31
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP1_b",
+		"tags": "",
+		"body": "10",
+		"position": {
+			"x": 527,
+			"y": -13
+		},
+		"colorID": 1
+	},
+	{
+		"title": "ESP1_c",
+		"tags": "",
+		"body": "13",
+		"position": {
+			"x": 828,
+			"y": -49
+		},
+		"colorID": 8
+	},
+	{
+		"title": "ENG1_b",
+		"tags": "",
+		"body": "I have $14\n\n[[ answer: Node |ENG2]]",
+		"position": {
+			"x": -591,
+			"y": -170
+		},
+		"colorID": 8
+	},
+	{
+		"title": "ENG1_c",
+		"tags": "",
+		"body": "I have $10\n\n[[ answer: Node |ENG2]]",
+		"position": {
+			"x": -2,
+			"y": -158
+		},
+		"colorID": 8
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Instructions: Select one drink, main dish, and dessert that fits within your budget.",
+		"position": {
+			"x": -280,
+			"y": 231
+		},
+		"colorID": 0
+	}
+]
