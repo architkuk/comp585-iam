@@ -1100,6 +1100,132 @@
         "metadata": "",
         "name": "restaurant-scene.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/flan-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\flan-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/arroz_con_leche-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\arroz_con_leche-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/tres_leches-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\tres_leches-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/fruit_salad-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\fruit_salad-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/natilla-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\natilla-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/coconut_icecream-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\coconut_icecream-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/churros-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\churros-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/Burritos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\Burritos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/food/grilledcorn-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\food\\grilledcorn-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Start button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/temp/assetstemptempStartButtonPressed-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\temp\\assetstemptempStartButtonPressed-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "startButtonUnpressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "startButtonUnpressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blank-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blank-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Home.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1250,7 +1376,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\temp\\tempStartButton.png",
+                      "image": "startButtonUnpressed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1921,6 +2047,45 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "Home",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Home.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2636,22 +2801,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "GearButton",
-          "persistentUuid": "6e844448-1140-4d63-9ed0-cbd3752e8183",
-          "width": 0,
-          "x": 895,
-          "y": 11,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "dialogueOptions",
           "persistentUuid": "67ea49cf-a8e7-493e-a1a2-8747567fcea2",
           "width": 0,
@@ -2980,516 +3129,6 @@
             "g": 0,
             "r": 0
           }
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_1_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Arepa_Ham_and_Cheese.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_1_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Tamales.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_1_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Arroz.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_1_4",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Lentil_Soup.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_1_5",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Spaghetti_And_Meatballs_.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_1_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Water.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_1_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Lavender_Lemonade_.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_1_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Orange_Juice.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_1_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Flan.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_1_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/brownie.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_1_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Tres_Leches.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_2_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Mangu.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_2_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Baleadas.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_2_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Fried fish.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_2_4",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Quinoa_Salad.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_2_5",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Empanadas.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_2_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Coconut_and_Lime.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_2_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Milkshake.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_2_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Water.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_2_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Arroz_Con_Leche.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_2_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Churros.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_2_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Coconut_Icecream.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_3_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Huevos_Rancheros.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_3_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Burritos.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_3_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/chickandrice.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_3_4",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Caesar_Salad.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Entree_3_5",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Grilled_Corn.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_3_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Water.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_3_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Mango_Frescas.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Drink_3_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Lavender_Lemonade_.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_3_1",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Natilla.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_3_2",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets/food/Fruit_Salad.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 64,
-          "leftMargin": 0,
-          "name": "Dessert_3_3",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "assets\\food\\brownie.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
-          "height": 425,
-          "leftMargin": 0,
-          "name": "White",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "NewFile-1-0.png",
-          "tiled": true,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 350,
-          "variables": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -4166,7 +3805,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -5064,11 +4703,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewFile-1-0.png",
+                      "image": "blank-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5262,7 +4901,7 @@
               ]
             },
             {
-              "name": "",
+              "name": "burrito",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -5271,7 +4910,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Aguas_Frescas_(mango_Pineapple).jpg.png",
+                      "image": "assets\\food\\Burritos.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5746,11 +5385,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Grilled_Corn.png",
+                      "image": "assets\\food\\grilledcorn-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6022,11 +5661,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Flan.png",
+                      "image": "assets\\food\\flan-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6051,11 +5690,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Arroz_Con_Leche.png",
+                      "image": "assets\\food\\arroz_con_leche-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6080,11 +5719,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Tres_Leches.png",
+                      "image": "assets\\food\\tres_leches-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6110,7 +5749,25 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\food\\brownie.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             },
@@ -6120,11 +5777,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Fruit_Salad.png",
+                      "image": "assets\\food\\fruit_salad-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6149,11 +5806,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Natilla.png",
+                      "image": "assets\\food\\natilla-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6178,11 +5835,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Coconut_Icecream.png",
+                      "image": "assets\\food\\coconut_icecream-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6207,11 +5864,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\food\\Churros.png",
+                      "image": "assets\\food\\churros-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11435,6 +11092,18 @@
                 "\"$3.00\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "42"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -11467,18 +11136,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "FoodImage",
-                    "=",
-                    "42"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,

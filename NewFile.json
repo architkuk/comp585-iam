@@ -32,7 +32,7 @@
 	{
 		"title": "ESP1",
 		"tags": "",
-		"body": "Gracias por venir, Comida con Amor es mi restaurante favorito. [[Answer:ESP2|ESP2]]",
+		"body": "Elena: Gracias por venir, Comida con Amor es mi restaurante favorito. [[Answer:ESP2|ESP2]]",
 		"position": {
 			"x": 245,
 			"y": -35
