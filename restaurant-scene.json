@@ -2,90 +2,80 @@
 	{
 		"title": "StartENG",
 		"tags": "",
-		"body": "Elena: How much money did you bring?\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif >> \n\n[[Answer:Node|ENG1_a]]\n<<  if $Budget1 == true >>\n[[Answer:Node|ENG1_a]]\n<<  endif >>\n\n<<  if $Budget2 == true >>\n[[Answer:Node|ENG1_b]]\n<< endif >> \n\n<< if $Budget3 == true >>\n[[Answer:Node|ENG1_c]]\n<< endif >>",
+		"body": "Welcome to Comida Con Amor! Let's go over a couple instructions on how to choose a delicious meal! Press Enter.\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif >>\n\n[[ answer: Node |ENG1_a]]",
 		"position": {
-			"x": -240,
-			"y": -580
+			"x": -284,
+			"y": -584
 		},
 		"colorID": 8
 	},
 	{
 		"title": "StartESP",
 		"tags": "",
-		"body": "Elena: ¿Cuánto dinero trajiste?\n\n<<  if $Budget == 14>>\n    [[ answer: Node |ESP1_a]] ]]\n<<  endif>>\n\n<<  if $Budget == 13>>\n    [[ answer: Node |ESP1_b]] ]]\n<<  else >>\n    [[ answer: Node |ESP1_c]] ]]\n<<  endif >>",
+		"body": "¡Bienvenidos a Comida Con Amor! ¡Repasemos un par de instrucciones sobre cómo elegir una comida deliciosa! Presione Entrar.\n\n[[ answer: Node |ESP1_a]]",
 		"position": {
 			"x": 273,
 			"y": -585
 		},
-		"colorID": 8
+		"colorID": 0
 	},
 	{
-		"title": "ENG1_a",
+		"title": "ENG1",
 		"tags": "",
-		"body": "You: I have $13.\n\n[[ answer: Node |ENG2]]",
+		"body": "Hover over a menu item in the top left to see the price and other information about the item. Press the Enter key to see your first task.\n\n\n[[ answer: Node |ENG2]]",
 		"position": {
-			"x": -281,
-			"y": -168
-		},
-		"colorID": 8
-	},
-	{
-		"title": "ESP1_a",
-		"tags": "",
-		"body": "14",
-		"position": {
-			"x": 240,
-			"y": -31
+			"x": -288,
+			"y": -313
 		},
 		"colorID": 0
 	},
 	{
-		"title": "ESP1_b",
+		"title": "ESP1",
 		"tags": "",
-		"body": "10",
+		"body": "Desplácese sobre un elemento del menú en la parte superior izquierda para ver el precio y otra información sobre el elemento. Presione la tecla Enter para ver su primera tarea.\n\n[[ answer: Node |ESP2]]",
 		"position": {
-			"x": 527,
-			"y": -13
+			"x": 274,
+			"y": -315
 		},
-		"colorID": 1
-	},
-	{
-		"title": "ESP1_c",
-		"tags": "",
-		"body": "13",
-		"position": {
-			"x": 828,
-			"y": -49
-		},
-		"colorID": 8
-	},
-	{
-		"title": "ENG1_b",
-		"tags": "",
-		"body": "I have $14\n\n[[ answer: Node |ENG2]]",
-		"position": {
-			"x": -591,
-			"y": -170
-		},
-		"colorID": 8
-	},
-	{
-		"title": "ENG1_c",
-		"tags": "",
-		"body": "I have $10\n\n[[ answer: Node |ENG2]]",
-		"position": {
-			"x": -2,
-			"y": -158
-		},
-		"colorID": 8
+		"colorID": 0
 	},
 	{
 		"title": "ENG2",
 		"tags": "",
-		"body": "Instructions: Select one drink, main dish, and dessert that fits within your budget.",
+		"body": "Instructions: Choose one entree, one drink, and one dessert. Keep in mind that you have a budget! The total price of the items you select must be less than or equal to that budget. If you want to clear your selection, click the Reset button.",
 		"position": {
-			"x": -280,
-			"y": 231
+			"x": -293,
+			"y": -37
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP2",
+		"tags": "",
+		"body": "Instrucciones: Elija un plato principal, una bebida y un postre. ¡Tenga en cuenta que tiene un presupuesto! El precio total de los artículos que seleccione debe ser menor o igual a ese presupuesto. Si desea borrar su selección, haga clic en el botón Restablecer.",
+		"position": {
+			"x": 291,
+			"y": -55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1_a",
+		"tags": "",
+		"body": "Your budget is shown in the box above. Press the Enter key to see the first set of instructions.\n\n[[ answer: Node |ENG1]]",
+		"position": {
+			"x": -585,
+			"y": -495
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP1_a",
+		"tags": "",
+		"body": "Su presupuesto se muestra en el cuadro de arriba. Presione la tecla Enter para ver el primer conjunto de instrucciones.\n\n[[ answer: Node |ESP1]]",
+		"position": {
+			"x": -3,
+			"y": -431
 		},
 		"colorID": 0
 	}
