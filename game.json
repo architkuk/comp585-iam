@@ -6502,6 +6502,63 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Entrees_Header",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Entrees",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Drinks_Header",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Drinks",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Desserts_Header",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Desserts",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -6530,7 +6587,7 @@
               "parameters": [
                 "index",
                 "=",
-                "RandomInRange(0, 2)\n"
+                "1"
               ],
               "subInstructions": []
             },
@@ -6764,7 +6821,7 @@
                   "parameters": [
                     "",
                     "Mangu",
-                    "64",
+                    "48",
                     "64",
                     "2"
                   ],
@@ -6778,7 +6835,7 @@
                   "parameters": [
                     "",
                     "Baleadas",
-                    "64",
+                    "48",
                     "128",
                     ""
                   ],
@@ -6792,7 +6849,7 @@
                   "parameters": [
                     "",
                     "Fried_fish",
-                    "64",
+                    "48",
                     "192",
                     ""
                   ],
@@ -6806,7 +6863,7 @@
                   "parameters": [
                     "",
                     "Quinoa_Salad",
-                    "64",
+                    "48",
                     "256",
                     ""
                   ],
@@ -6820,7 +6877,7 @@
                   "parameters": [
                     "",
                     "Empanadas",
-                    "64",
+                    "48",
                     "320",
                     ""
                   ],
@@ -6834,7 +6891,7 @@
                   "parameters": [
                     "",
                     "coconut_lime",
-                    "128",
+                    "160",
                     "64",
                     ""
                   ],
@@ -6848,7 +6905,7 @@
                   "parameters": [
                     "",
                     "Milkshake",
-                    "128",
+                    "160",
                     "128",
                     ""
                   ],
@@ -6862,7 +6919,7 @@
                   "parameters": [
                     "",
                     "Water",
-                    "128",
+                    "160",
                     "192",
                     ""
                   ],
@@ -6876,7 +6933,7 @@
                   "parameters": [
                     "",
                     "Arroz_con_leche",
-                    "192",
+                    "272",
                     "64",
                     ""
                   ],
@@ -6890,7 +6947,7 @@
                   "parameters": [
                     "",
                     "Churros",
-                    "192",
+                    "272",
                     "128",
                     ""
                   ],
@@ -6904,7 +6961,7 @@
                   "parameters": [
                     "",
                     "Coconut_icecream",
-                    "192",
+                    "272",
                     "192",
                     ""
                   ],
@@ -6942,6 +6999,48 @@
                   "parameters": [
                     "Budget1",
                     "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Entrees_Header",
+                    "44",
+                    "16",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Drinks_Header",
+                    "162",
+                    "16",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Desserts_Header",
+                    "268",
+                    "16",
+                    ""
                   ],
                   "subInstructions": []
                 }
