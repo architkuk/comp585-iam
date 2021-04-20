@@ -3854,7 +3854,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6824999999999991
+        "zoomFactor": 0.6524999999999992
       },
       "objectsGroups": [
         {
@@ -4100,8 +4100,8 @@
           "name": "error",
           "persistentUuid": "fca59f85-a61e-477e-8584-4acdedab1abb",
           "width": 575,
-          "x": 199,
-          "y": 282,
+          "x": 168,
+          "y": 287,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -4116,8 +4116,8 @@
           "name": "error_msg",
           "persistentUuid": "0bf53f92-4ece-41ce-8f98-7b1c582d2dfb",
           "width": 504,
-          "x": 233,
-          "y": 293,
+          "x": 209,
+          "y": 302,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -4132,8 +4132,8 @@
           "name": "Temp_Total",
           "persistentUuid": "ef9a7b1f-9102-4398-9ad3-b4ac35c76e51",
           "width": 0,
-          "x": 699,
-          "y": 320,
+          "x": 20,
+          "y": 517,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -4148,8 +4148,8 @@
           "name": "Temp_Total_Val",
           "persistentUuid": "7bbbd20d-dabc-4826-ae38-a95253d74bcf",
           "width": 0,
-          "x": 752,
-          "y": 320,
+          "x": 178,
+          "y": 517,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -4164,8 +4164,8 @@
           "name": "success",
           "persistentUuid": "6ddbd9f6-da14-490a-859d-757ca5a042e2",
           "width": 570,
-          "x": 202,
-          "y": 284,
+          "x": 170,
+          "y": 288,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -4180,8 +4180,8 @@
           "name": "success_msg",
           "persistentUuid": "0a02fbe5-566d-4c26-9f3d-3078b3e8935a",
           "width": 0,
-          "x": 252,
-          "y": 297,
+          "x": 222,
+          "y": 305,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -4215,6 +4215,22 @@
           "x": 429,
           "y": 353,
           "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "CalculatedTotal",
+          "persistentUuid": "7fc29b2d-7916-4f84-9311-3408575961d0",
+          "width": 0,
+          "x": 810,
+          "y": 447,
+          "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6388,7 +6404,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Total:",
+          "string": "",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -6559,6 +6575,13 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "CalculatedTotal",
+          "tags": "",
+          "type": "TextEntryObject::TextEntry",
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -6789,6 +6812,29 @@
               },
               "parameters": [
                 "Next_Text"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryObject::Activate"
+              },
+              "parameters": [
+                "CalculatedTotal",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CalculatedVal",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -11354,6 +11400,192 @@
                   ]
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::CurrentBranchTitle"
+                  },
+                  "parameters": [
+                    "\"ENG3\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "CalculatedTotal",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "ToNumber(CalculatedTotal.String())",
+                        "=",
+                        "Variable(Total)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Return"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "success_msg",
+                            "=",
+                            "\"Yes, you're right!\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "success",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "success_msg",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "ToNumber(CalculatedTotal.String())",
+                        "!=",
+                        "Variable(Total)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Return"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "error_msg",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "error",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "error_msg",
+                            "=",
+                            "\"WROOOONNNNGGG!\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11525,6 +11757,30 @@
                     "Next_Text"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Temp_Total_Val",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::String"
+                  },
+                  "parameters": [
+                    "CalculatedTotal",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -11689,6 +11945,14 @@
                   "subInstructions": []
                 }
               ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -11772,7 +12036,91 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "nextPressed",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"ENG3\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "success_msg"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "success"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Next_Button"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Next_Text"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Temp_Total",
+                    "=",
+                    "\"Calculated Value:\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -11803,6 +12151,27 @@
                 "Next_Button",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Temp_Total_Val",
+                "=",
+                "CalculatedTotal.String()"
               ],
               "subInstructions": []
             }
