@@ -88,5 +88,15 @@
 			"y": 243
 		},
 		"colorID": 0
+	},
+	{
+		"title": "ESP3",
+		"tags": "",
+		"body": "¿Cuánto cuesta el total?",
+		"position": {
+			"x": 280,
+			"y": 286
+		},
+		"colorID": 0
 	}
 ]
