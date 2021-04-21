@@ -1427,14 +1427,6 @@
         "userAdded": true
       },
       {
-        "disablePreload": false,
-        "file": "restaurant-scene.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "restaurant-scene.json",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/avatars/Avatar1Back.png",
         "kind": "image",
@@ -1505,6 +1497,14 @@
         "name": "assets\\avatars\\Avatar8Back.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "restaurant-scene.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "restaurant-scene.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4019,22 +4019,113 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "KeyReleased"
+                            "value": "MouseButtonPressed"
                           },
                           "parameters": [
                             "",
-                            "Return"
+                            "Left"
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "MouseButtonPressed"
+                            "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "DialogueTree::GoToNextLine"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "DialogueTree::CurrentBranchTitle"
+                              },
+                              "parameters": [
+                                "\"ENGend\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Scene"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Restaurant\"",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "DialogueTree::CurrentBranchTitle"
+                              },
+                              "parameters": [
+                                "\"ESPend\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Scene"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Restaurant\"",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "KeyPressed"
                           },
                           "parameters": [
                             "",
-                            "Left"
+                            "Return"
                           ],
                           "subInstructions": []
                         },
@@ -4312,17 +4403,6 @@
                   "parameters": [
                     "",
                     "Return"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
                   ],
                   "subInstructions": []
                 }
@@ -4813,8 +4893,8 @@
           "name": "Ayu",
           "persistentUuid": "14672762-5c2b-47f7-bfc0-e6dc06631aff",
           "width": 368,
-          "x": 773,
-          "y": 428,
+          "x": 823,
+          "y": 424,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7300,7 +7380,7 @@
               "parameters": [
                 "index",
                 "=",
-                "1"
+                "Random(2)"
               ],
               "subInstructions": []
             },
@@ -7373,18 +7453,6 @@
               "parameters": [
                 "",
                 "restaurant-scene.json"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"Spanish\""
               ],
               "subInstructions": []
             },
@@ -7840,7 +7908,7 @@
                   "parameters": [
                     "",
                     "Huevos_Rancheros",
-                    "64",
+                    "48",
                     "64",
                     "2"
                   ],
@@ -7854,7 +7922,7 @@
                   "parameters": [
                     "",
                     "Burritos",
-                    "64",
+                    "48",
                     "128",
                     ""
                   ],
@@ -7868,7 +7936,7 @@
                   "parameters": [
                     "",
                     "Arroz_con_Pollo",
-                    "64",
+                    "48",
                     "192",
                     ""
                   ],
@@ -7882,7 +7950,7 @@
                   "parameters": [
                     "",
                     "Caesar_Salad",
-                    "64",
+                    "48",
                     "256",
                     ""
                   ],
@@ -7896,7 +7964,7 @@
                   "parameters": [
                     "",
                     "Grilled_Corn",
-                    "64",
+                    "48",
                     "320",
                     ""
                   ],
@@ -7910,7 +7978,7 @@
                   "parameters": [
                     "",
                     "Water",
-                    "128",
+                    "160",
                     "64",
                     ""
                   ],
@@ -7924,7 +7992,7 @@
                   "parameters": [
                     "",
                     "Mango_Aguas_frescas",
-                    "128",
+                    "160",
                     "128",
                     ""
                   ],
@@ -7938,7 +8006,7 @@
                   "parameters": [
                     "",
                     "Lavender_lemonade",
-                    "128",
+                    "160",
                     "192",
                     ""
                   ],
@@ -7952,7 +8020,7 @@
                   "parameters": [
                     "",
                     "Natilla",
-                    "192",
+                    "272",
                     "64",
                     ""
                   ],
@@ -7966,7 +8034,7 @@
                   "parameters": [
                     "",
                     "Fruit_salad",
-                    "192",
+                    "272",
                     "128",
                     ""
                   ],
@@ -7980,7 +8048,7 @@
                   "parameters": [
                     "",
                     "Brownie",
-                    "192",
+                    "272",
                     "192",
                     ""
                   ],
@@ -8020,6 +8088,48 @@
                     "True"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Entrees_Header",
+                    "44",
+                    "16",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Drinks_Header",
+                    "162",
+                    "16",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Desserts_Header",
+                    "268",
+                    "16",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -8051,7 +8161,7 @@
                   "parameters": [
                     "",
                     "Arepa",
-                    "64",
+                    "48",
                     "64",
                     "2"
                   ],
@@ -8065,7 +8175,7 @@
                   "parameters": [
                     "",
                     "Tamales",
-                    "64",
+                    "48",
                     "128",
                     ""
                   ],
@@ -8079,7 +8189,7 @@
                   "parameters": [
                     "",
                     "Arroz_Chaufa",
-                    "64",
+                    "48",
                     "192",
                     ""
                   ],
@@ -8093,7 +8203,7 @@
                   "parameters": [
                     "",
                     "Lentil_Soup",
-                    "64",
+                    "48",
                     "256",
                     ""
                   ],
@@ -8107,7 +8217,7 @@
                   "parameters": [
                     "",
                     "Entree_1_5",
-                    "64",
+                    "48",
                     "320",
                     ""
                   ],
@@ -8121,7 +8231,7 @@
                   "parameters": [
                     "",
                     "Water",
-                    "128",
+                    "160",
                     "64",
                     ""
                   ],
@@ -8135,7 +8245,7 @@
                   "parameters": [
                     "",
                     "Lavender_lemonade",
-                    "128",
+                    "160",
                     "128",
                     ""
                   ],
@@ -8149,7 +8259,7 @@
                   "parameters": [
                     "",
                     "Orange_Juice",
-                    "128",
+                    "160",
                     "192",
                     ""
                   ],
@@ -8163,7 +8273,7 @@
                   "parameters": [
                     "",
                     "Flan",
-                    "192",
+                    "272",
                     "64",
                     ""
                   ],
@@ -8177,7 +8287,7 @@
                   "parameters": [
                     "",
                     "Brownie",
-                    "192",
+                    "272",
                     "128",
                     ""
                   ],
@@ -8191,7 +8301,7 @@
                   "parameters": [
                     "",
                     "Tres_Leches",
-                    "192",
+                    "272",
                     "192",
                     ""
                   ],
@@ -8229,6 +8339,48 @@
                   "parameters": [
                     "Budget3",
                     "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Entrees_Header",
+                    "44",
+                    "16",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Drinks_Header",
+                    "162",
+                    "16",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Desserts_Header",
+                    "268",
+                    "16",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -12118,6 +12270,82 @@
                       "events": []
                     }
                   ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DialogueTree::GoToNextLine"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "DialogueTree::CurrentBranchTitle"
+                          },
+                          "parameters": [
+                            "\"ENGend\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "DialogueTree::CurrentBranchTitle"
+                          },
+                          "parameters": [
+                            "\"ESPend\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    }
+                  ]
                 }
               ]
             },
@@ -14597,15 +14825,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 61,
           "layer": "",
           "locked": false,
           "name": "NextButton",
           "persistentUuid": "fe53fc09-1409-4861-aea6-9ede1ce61d01",
-          "width": 0,
-          "x": 723,
-          "y": 547,
+          "width": 201,
+          "x": 748,
+          "y": 539,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
