@@ -1572,7 +1572,7 @@
           "locked": false,
           "name": "BGColor",
           "persistentUuid": "24d69a4b-bef2-4fd2-9d5b-4f25ff735f90",
-          "width": 1104,
+          "width": 1299,
           "x": -72,
           "y": -235,
           "zOrder": 0,
@@ -3006,12 +3006,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 607,
+          "height": 781,
           "layer": "",
           "locked": false,
           "name": "BGColor",
           "persistentUuid": "f043d5f8-c700-46d7-8b63-8dd8ba33a1bc",
-          "width": 1003,
+          "width": 1368,
           "x": 0,
           "y": -5,
           "zOrder": 0,
@@ -4944,6 +4944,22 @@
           "x": 186,
           "y": 278,
           "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BGColor",
+          "persistentUuid": "bcf0cee0-2555-48de-97f2-e61f9f883994",
+          "width": 0,
+          "x": -317,
+          "y": -304,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13500,6 +13516,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -13745,6 +13773,18 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
               ],
               "subInstructions": []
             }
@@ -14826,14 +14866,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 61,
+          "height": 153,
           "layer": "",
           "locked": false,
           "name": "NextButton",
           "persistentUuid": "fe53fc09-1409-4861-aea6-9ede1ce61d01",
-          "width": 201,
-          "x": 748,
-          "y": 539,
+          "width": 319,
+          "x": 716,
+          "y": 493,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -15958,7 +15998,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "NEXT -->",
+          "string": "    \n      NEXT -->",
           "font": "",
           "characterSize": 45,
           "color": {
