@@ -4963,6 +4963,86 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 500,
+          "layer": "",
+          "locked": false,
+          "name": "BonusQuestionsBackdrop",
+          "persistentUuid": "933b81f2-6aef-44bd-b855-dccc35b50897",
+          "width": 500,
+          "x": 222,
+          "y": 38,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "BonusQuestion",
+          "persistentUuid": "0722c9c2-6088-4561-a19d-643746b0fe21",
+          "width": 430,
+          "x": 260,
+          "y": 75,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "BonusQuestion3",
+          "persistentUuid": "335d79ed-f004-4f5c-8d1e-abcc9c1147f0",
+          "width": 430,
+          "x": 260,
+          "y": 403,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "BonusQuestion2",
+          "persistentUuid": "b74dab24-1753-4eff-83ee-939f24b8fc46",
+          "width": 430,
+          "x": 260,
+          "y": 222,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "layer": "",
+          "locked": false,
+          "name": "Next_Button2",
+          "persistentUuid": "1f6af074-6ded-403f-8581-cbe2414158b6",
+          "width": 90,
+          "x": 589,
+          "y": 379,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7162,6 +7242,74 @@
           }
         },
         {
+          "name": "Next_Button2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assetstemptempStartButton",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/temp/tempStartButton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "assetstemptempStartButtonPressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Next_Button",
           "tags": "",
           "type": "Sprite",
@@ -7361,6 +7509,102 @@
           "variables": [],
           "behaviors": [],
           "string": "\n¡No puedes pagar esto! El precio total de su plato principal, bebida y postre excede su presupuesto. Haga clic en Restablecer y elija una combinación diferente.",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "BonusQuestionsBackdrop",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Purple_Background_.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "BonusQuestion2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "BonusQuestion3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "BonusQuestion",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -7605,6 +7849,16 @@
                 "value": "Cache"
               },
               "parameters": [
+                "Next_Button2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
                 "Next_Text"
               ],
               "subInstructions": []
@@ -7639,6 +7893,58 @@
                 "CalculatedVal",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BonusQuestionsBackdrop"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BonusQuestion"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BonusQuestion2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BonusQuestion3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
               ],
               "subInstructions": []
             }
@@ -12486,9 +12792,101 @@
                                 ""
                               ],
                               "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "Next_Button2",
+                                ""
+                              ],
+                              "subInstructions": []
                             }
                           ],
-                          "events": []
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "SourisSurObjet"
+                                  },
+                                  "parameters": [
+                                    "Next_Button2",
+                                    "",
+                                    "",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "BonusQuestionsBackdrop",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "BonusQuestion",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "BonusQuestion2",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "BonusQuestion",
+                                    "=",
+                                    "\"How much is your total if you remove the most expensive item?\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "BonusQuestion2",
+                                    "=",
+                                    "\"How much is your total if you remove your least expensive item?\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
                         }
                       ]
                     },
