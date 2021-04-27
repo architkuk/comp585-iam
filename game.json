@@ -7947,6 +7947,42 @@
                 "\"English\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Entree",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Drink",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Dessert",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -8815,7 +8851,7 @@
               "parameters": [
                 "FoodPrice",
                 "=",
-                "\"$1.00\""
+                "\"$0.00\""
               ],
               "subInstructions": []
             },
@@ -8870,7 +8906,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Water ($0), \""
+                    "SelectedBox.String() + \"Water ($0.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -8893,6 +8929,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
                     "0"
                   ],
                   "subInstructions": []
@@ -8997,7 +9045,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Arepa ($7), \""
+                    "SelectedBox.String() + \"Arepa ($7.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9020,6 +9068,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "7"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "7"
                   ],
                   "subInstructions": []
@@ -9124,7 +9184,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Tamales ($6), \""
+                    "SelectedBox.String() + \"Tamales ($6.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9147,6 +9207,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "6"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "6"
                   ],
                   "subInstructions": []
@@ -9251,7 +9323,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Arroz Chaufa ($15), \""
+                    "SelectedBox.String() + \"Arroz Chaufa ($15.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9274,6 +9346,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "15"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "15"
                   ],
                   "subInstructions": []
@@ -9378,7 +9462,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Lentil Soup ($7), \""
+                    "SelectedBox.String() + \"Lentil Soup ($7.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9401,6 +9485,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "7"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "7"
                   ],
                   "subInstructions": []
@@ -9505,7 +9601,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Lavendar Lemonade ($3), \""
+                    "SelectedBox.String() + \"Lavendar Lemonade ($3.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9528,6 +9624,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
                     "3"
                   ],
                   "subInstructions": []
@@ -9632,7 +9740,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Spaghetti and Meatballs ($10), \""
+                    "SelectedBox.String() + \"Spaghetti and Meatballs ($10.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9655,6 +9763,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "10"
                   ],
                   "subInstructions": []
@@ -9759,7 +9879,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Orange Juice ($4), \""
+                    "SelectedBox.String() + \"Orange Juice ($4.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9782,6 +9902,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
                     "4"
                   ],
                   "subInstructions": []
@@ -9886,7 +10018,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Flan ($2), \""
+                    "SelectedBox.String() + \"Flan ($2.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -9909,6 +10041,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "2"
                   ],
                   "subInstructions": []
@@ -10013,7 +10157,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Brownie ($5), \""
+                    "SelectedBox.String() + \"Brownie ($5.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10036,6 +10180,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "5"
                   ],
                   "subInstructions": []
@@ -10140,7 +10296,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Tres Leches ($2), \""
+                    "SelectedBox.String() + \"Tres Leches ($2.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10163,6 +10319,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "2"
                   ],
                   "subInstructions": []
@@ -10267,7 +10435,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Mangu ($9), \""
+                    "SelectedBox.String() + \"Mangu ($9.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10290,6 +10458,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "9"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "9"
                   ],
                   "subInstructions": []
@@ -10394,7 +10574,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Baleadas ($7), \""
+                    "SelectedBox.String() + \"Baleadas ($7.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10417,6 +10597,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "7"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "7"
                   ],
                   "subInstructions": []
@@ -10521,7 +10713,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Fried Fish ($9), \""
+                    "SelectedBox.String() + \"Fried Fish ($9.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10544,6 +10736,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "9"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "9"
                   ],
                   "subInstructions": []
@@ -10660,7 +10864,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Quinoa Salad ($7), \""
+                    "SelectedBox.String() + \"Quinoa Salad ($7.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10683,6 +10887,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "7"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "7"
                   ],
                   "subInstructions": []
@@ -10787,7 +11003,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Empanadas ($6), \""
+                    "SelectedBox.String() + \"Empanadas ($6.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10810,6 +11026,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "6"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "6"
                   ],
                   "subInstructions": []
@@ -10914,7 +11142,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Coconut Lime Fresca ($3), \""
+                    "SelectedBox.String() + \"Coconut Lime Fresca ($3.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -10937,6 +11165,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
                     "3"
                   ],
                   "subInstructions": []
@@ -11041,7 +11281,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Milkshake ($5), \""
+                    "SelectedBox.String() + \"Milkshake ($5.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -11064,6 +11304,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
                     "5"
                   ],
                   "subInstructions": []
@@ -11168,7 +11420,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Rice Pudding ($2), \""
+                    "SelectedBox.String() + \"Rice Pudding ($2.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -11191,6 +11443,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "2"
                   ],
                   "subInstructions": []
@@ -11295,7 +11559,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Churros ($5), \""
+                    "SelectedBox.String() + \"Churros ($5.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -11318,6 +11582,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "5"
                   ],
                   "subInstructions": []
@@ -11422,7 +11698,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Coconut Icecream ($3), \" "
+                    "SelectedBox.String() + \"Coconut Icecream ($3.00), \" "
                   ],
                   "subInstructions": []
                 },
@@ -11445,6 +11721,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "3"
                   ],
                   "subInstructions": []
@@ -11549,7 +11837,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Huevos Rancheros ($8), \""
+                    "SelectedBox.String() + \"Huevos Rancheros ($8.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -11572,6 +11860,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "8"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "8"
                   ],
                   "subInstructions": []
@@ -11676,7 +11976,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Burritos ($8), \""
+                    "SelectedBox.String() + \"Burritos ($8.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -11699,6 +11999,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "8"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "8"
                   ],
                   "subInstructions": []
@@ -11803,7 +12115,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Rice with Chicken ($7), \""
+                    "SelectedBox.String() + \"Rice with Chicken ($7.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -11826,6 +12138,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "7"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "7"
                   ],
                   "subInstructions": []
@@ -11930,7 +12254,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Caesar Salad ($6), \""
+                    "SelectedBox.String() + \"Caesar Salad ($6.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -11953,6 +12277,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "6"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "6"
                   ],
                   "subInstructions": []
@@ -12057,7 +12393,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Grilled Corn ($5), \""
+                    "SelectedBox.String() + \"Grilled Corn ($5.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -12080,6 +12416,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
                     "5"
                   ],
                   "subInstructions": []
@@ -12184,7 +12532,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Mango Pineapple Frescas ($3), \""
+                    "SelectedBox.String() + \"Mango Pineapple Frescas ($3.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -12207,6 +12555,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
                     "3"
                   ],
                   "subInstructions": []
@@ -12311,7 +12671,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Natilla ($2), \""
+                    "SelectedBox.String() + \"Natilla ($2.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -12334,6 +12694,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "2"
                   ],
                   "subInstructions": []
@@ -12438,7 +12810,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Fruit Salad ($3), \""
+                    "SelectedBox.String() + \"Fruit Salad ($3.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -12461,6 +12833,18 @@
                   "parameters": [
                     "Total",
                     "+",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
                     "3"
                   ],
                   "subInstructions": []
@@ -13385,6 +13769,42 @@
                     "\"\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -13593,6 +14013,42 @@
                     "CalculatedTotal",
                     "=",
                     "\"\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Drink",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
