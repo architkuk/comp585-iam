@@ -21101,6 +21101,18 @@
                 "\"Calculated Answer: \""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -24304,92 +24316,14 @@
                 "0"
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success",
-                ""
-              ],
-              "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "VarScene"
               },
               "parameters": [
-                "success_msg",
-                "=",
-                "\"Correct!\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success_msg",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Next_Button",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Next_Text",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "ToNumber(CalculatedTotal.String())",
-                "=",
-                "7"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "index",
+                "whichQuestion",
                 "=",
                 "1"
               ],
@@ -24452,6 +24386,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -24469,7 +24415,7 @@
               "parameters": [
                 "ToNumber(CalculatedTotal.String())",
                 "=",
-                "4"
+                "7"
               ],
               "subInstructions": []
             },
@@ -24481,7 +24427,19 @@
               "parameters": [
                 "index",
                 "=",
-                "2"
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -24540,6 +24498,132 @@
               "parameters": [
                 "Next_Text",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "ToNumber(CalculatedTotal.String())",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "index",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "success",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "success_msg",
+                "=",
+                "\"Correct!\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "success_msg",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Next_Button",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Next_Text",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "2"
               ],
               "subInstructions": []
             }
@@ -24742,6 +24826,18 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -24832,6 +24928,18 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "whichQuestion",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -24918,6 +25026,18 @@
               },
               "parameters": [
                 "index",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "whichQuestion",
                 "=",
                 "2"
               ],
