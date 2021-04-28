@@ -1492,14 +1492,6 @@
       },
       {
         "disablePreload": false,
-        "file": "restaurant-scene.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "restaurant-scene.json",
-        "userAdded": true
-      },
-      {
-        "disablePreload": false,
         "file": "NewFile.json",
         "kind": "json",
         "metadata": "",
@@ -1558,6 +1550,14 @@
         "metadata": "",
         "name": "assets\\FriendsHouse3Hover.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "restaurant-scene.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "restaurant-scene.json",
         "userAdded": true
       }
     ],
@@ -4368,22 +4368,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "dialogueOptions",
-          "persistentUuid": "67ea49cf-a8e7-493e-a1a2-8747567fcea2",
-          "width": 0,
-          "x": 1467,
-          "y": 516,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -4887,25 +4871,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "dialogueOptions",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
         }
       ],
       "events": [
@@ -9572,6 +9537,18 @@
                         "\"Presupuesto: $14.00\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "SelectedBox",
+                        "=",
+                        "\"Tu pedido: \""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -9896,6 +9873,18 @@
                         "\"Presupuesto: $10.00\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "SelectedBox",
+                        "=",
+                        "\"Tu pedido: \""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -10218,6 +10207,18 @@
                         "BudgetText",
                         "=",
                         "\"Presupuesto: $13.00\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "SelectedBox",
+                        "=",
+                        "\"Tu pedido: \""
                       ],
                       "subInstructions": []
                     }
@@ -13498,7 +13499,7 @@
                   "parameters": [
                     "SelectedBox",
                     "=",
-                    "SelectedBox.String() + \"Ensalada Salad ($7.00), \""
+                    "SelectedBox.String() + \"Ensalada Quinoa ($7.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -14139,6 +14140,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -14218,6 +14231,157 @@
                     "SelectedBox",
                     "=",
                     "SelectedBox.String() + \"Rice Pudding ($2.00), \""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "DessertSelected",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Total",
+                    "+",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dessert",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Arroz_con_leche",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Arroz con Leche\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$2.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "39"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "DessertSelected",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "SelectedBox",
+                    "=",
+                    "SelectedBox.String() + \"Arroz con Leche ($2.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -14997,6 +15161,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -15076,6 +15252,157 @@
                     "SelectedBox",
                     "=",
                     "SelectedBox.String() + \"Rice with Chicken ($7.00), \""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "EntreeSelected",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Total",
+                    "+",
+                    "7"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Entree",
+                    "=",
+                    "7"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Arroz_con_Pollo",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodLabelEng",
+                "=",
+                "\"Arroz con Pollo\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "FoodPrice",
+                "=",
+                "\"$7.00\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FoodImage",
+                "=",
+                "11"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "EntreeSelected",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "SelectedBox",
+                    "=",
+                    "SelectedBox.String() + \"Arroz con Pollo ($7.00), \""
                   ],
                   "subInstructions": []
                 },
@@ -26178,6 +26505,17 @@
                     "Next_Text"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "BonusQuestionsBackdrop",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -33397,6 +33735,17 @@
                     "Next_Text"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "BonusQuestionsBackdrop",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -33510,6 +33859,18 @@
               "parameters": [
                 "Next_Text",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"RestaurantBonus2\"",
+                "no"
               ],
               "subInstructions": []
             }

@@ -2,7 +2,7 @@
 	{
 		"title": "StartENG",
 		"tags": "",
-		"body": "Welcome to Comida Con Amor! Let's go over a couple instructions on how to choose a delicious meal! Press Enter.\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif >>\n\n[[ answer: Node |ENG1_a]]",
+		"body": "Welcome to Comida Con Amor! Let's go over a couple instructions on how to choose a delicious meal!\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif >>\n\n[[ answer: Node |ENG1_a]]",
 		"position": {
 			"x": -284,
 			"y": -584
@@ -12,7 +12,7 @@
 	{
 		"title": "StartESP",
 		"tags": "",
-		"body": "¡Bienvenidos a Comida Con Amor! ¡Repasemos un par de instrucciones sobre cómo elegir una comida deliciosa! Presione Entrar.\n\n[[ answer: Node |ESP1_a]]",
+		"body": "¡Bienvenidos a Comida Con Amor! ¡Repasemos un par de instrucciones sobre cómo elegir una comida deliciosa!\n\n[[ answer: Node |ESP1_a]]",
 		"position": {
 			"x": 273,
 			"y": -585
@@ -82,7 +82,7 @@
 	{
 		"title": "ENG3",
 		"tags": "",
-		"body": "How much was your order?",
+		"body": "How much was your order? Hint: type the amount and hit enter.",
 		"position": {
 			"x": -291,
 			"y": 243
@@ -92,7 +92,7 @@
 	{
 		"title": "ESP3",
 		"tags": "",
-		"body": "¿Cuánto cuesta el total?",
+		"body": "¿Cuánto cuesta el total? Sugerencia: escriba la respuesta y presione enter.",
 		"position": {
 			"x": 280,
 			"y": 286
