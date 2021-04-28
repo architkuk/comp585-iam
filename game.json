@@ -1505,6 +1505,60 @@
         "metadata": "",
         "name": "NewFile.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GroceryHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GroceryHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HomeHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HomeHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SchoolHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SchoolHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FriendsHouse1Hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FriendsHouse1Hover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FriendsHouse2Hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FriendsHouse2Hover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FriendsHouse3Hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FriendsHouse3Hover.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2118,7 +2172,7 @@
           "width": 0,
           "x": 698,
           "y": 386,
-          "zOrder": 3,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2132,9 +2186,9 @@
           "name": "schoolLabel",
           "persistentUuid": "7e7b5f20-be13-476a-982c-eaeb50c4a1d3",
           "width": 0,
-          "x": 659,
-          "y": 84,
-          "zOrder": 4,
+          "x": 657,
+          "y": 45,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2148,8 +2202,8 @@
           "name": "homeLabel",
           "persistentUuid": "69fb8acb-dca6-4a71-8ba5-0a94859caf43",
           "width": 0,
-          "x": 416,
-          "y": 243,
+          "x": 386,
+          "y": 245,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2167,6 +2221,134 @@
           "x": 76,
           "y": 420,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 251,
+          "layer": "",
+          "locked": false,
+          "name": "groceryHover",
+          "persistentUuid": "5c6ef266-c078-4db8-8d7c-b5e1100be879",
+          "width": 307,
+          "x": 7,
+          "y": 343,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 297,
+          "layer": "",
+          "locked": false,
+          "name": "restaurantHover",
+          "persistentUuid": "c2dcdecd-03b9-4295-97e7-71f9cc549eea",
+          "width": 350,
+          "x": 610,
+          "y": 317,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 350,
+          "layer": "",
+          "locked": false,
+          "name": "homeHover",
+          "persistentUuid": "9b587382-cc25-49e4-9f63-0725e5f41c8f",
+          "width": 342,
+          "x": 302,
+          "y": 134,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 344,
+          "layer": "",
+          "locked": false,
+          "name": "schoolHover",
+          "persistentUuid": "b4631970-96ab-4b0b-9669-518b01b98e7d",
+          "width": 437,
+          "x": 539,
+          "y": -16,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 182,
+          "layer": "",
+          "locked": false,
+          "name": "house1Hover",
+          "persistentUuid": "5ca1a100-a4ed-4910-bec4-754ce05853d4",
+          "width": 219,
+          "x": 123,
+          "y": -7,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 215,
+          "layer": "",
+          "locked": false,
+          "name": "house2Hover",
+          "persistentUuid": "b46d8233-a439-4b88-b1a9-086bf4a20233",
+          "width": 221,
+          "x": -9,
+          "y": 64,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 77,
+          "layer": "",
+          "locked": false,
+          "name": "house3Hover",
+          "persistentUuid": "6b8fa262-4f8a-4efb-93c6-29f251e5d0ea",
+          "width": 1,
+          "x": 556,
+          "y": 504,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 202,
+          "layer": "",
+          "locked": false,
+          "name": "house3Hover",
+          "persistentUuid": "f4f48369-3f11-4fdc-9c3b-df8008bb65f6",
+          "width": 267,
+          "x": 304,
+          "y": -25,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2252,7 +2434,7 @@
           ]
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "restLabel",
           "smoothed": true,
@@ -2263,15 +2445,15 @@
           "behaviors": [],
           "string": "\" \"",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 184,
+            "g": 12,
+            "r": 134
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "schoolLabel",
           "smoothed": true,
@@ -2282,15 +2464,15 @@
           "behaviors": [],
           "string": "\"\"",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 4,
+            "g": 101,
+            "r": 160
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "homeLabel",
           "smoothed": true,
@@ -2301,15 +2483,15 @@
           "behaviors": [],
           "string": "\"\"",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 92,
+            "g": 92,
+            "r": 4
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "storeLabel",
           "smoothed": true,
@@ -2320,15 +2502,418 @@
           "behaviors": [],
           "string": "Text",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 11,
+            "g": 141,
+            "r": 13
           }
+        },
+        {
+          "name": "groceryHover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\GroceryHover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "homeHover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\HomeHover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "restaurantHover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Restaurant_.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "schoolHover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\SchoolHover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "house1Hover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\FriendsHouse1Hover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "house2Hover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\FriendsHouse2Hover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "house3Hover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\FriendsHouse3Hover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "groceryHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restaurantHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house1Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house2Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house3Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "storeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeLabel"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2375,7 +2960,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Restaurant",
+                "restaurantHover",
                 "",
                 "",
                 ""
@@ -2383,7 +2968,120 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "groceryHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "restaurantHover",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house1Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house2Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house3Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "restLabel",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "storeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeLabel"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -2499,7 +3197,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "schoolLabel",
+                "schoolHover",
                 "",
                 "",
                 ""
@@ -2507,7 +3205,120 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "groceryHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restaurantHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "schoolHover",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house1Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house2Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house3Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "storeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "schoolLabel",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeLabel"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -2590,7 +3401,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "homeLabel",
+                "homeHover",
                 "",
                 "",
                 ""
@@ -2598,7 +3409,120 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "groceryHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restaurantHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "homeHover",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house1Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house2Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house3Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "storeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "homeLabel",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -2681,7 +3605,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "storeLabel",
+                "groceryHover",
                 "",
                 "",
                 ""
@@ -2689,7 +3613,120 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "groceryHover",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restaurantHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house1Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house2Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house3Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "storeLabel",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeLabel"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -2752,7 +3789,7 @@
                   "parameters": [
                     "storeLabel",
                     "=",
-                    "\"Tienda de Comestibles\""
+                    "\"El Supermercado\""
                   ],
                   "subInstructions": []
                 }
@@ -2768,11 +3805,11 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "schoolLabel",
+                "house1Hover",
                 "",
                 "",
                 ""
@@ -2784,12 +3821,111 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Cache"
               },
               "parameters": [
-                "schoolLabel",
-                "=",
-                "\"\""
+                "restaurantHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "house1Hover",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house2Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house3Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "storeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "groceryHover"
               ],
               "subInstructions": []
             }
@@ -2803,11 +3939,11 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "homeLabel",
+                "house2Hover",
                 "",
                 "",
                 ""
@@ -2819,12 +3955,111 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Cache"
               },
               "parameters": [
-                "homeLabel",
-                "=",
-                "\"\""
+                "restaurantHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house1Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "house2Hover",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house3Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "storeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "groceryHover"
               ],
               "subInstructions": []
             }
@@ -2838,11 +4073,11 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "storeLabel",
+                "house3Hover",
                 "",
                 "",
                 ""
@@ -2854,12 +4089,111 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Cache"
               },
               "parameters": [
-                "storeLabel",
-                "=",
-                "\"\""
+                "groceryHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restaurantHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeHover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house1Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "house2Hover"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "house3Hover",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "restLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "storeLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "schoolLabel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "homeLabel"
               ],
               "subInstructions": []
             }
@@ -3044,8 +4378,8 @@
           "name": "dialogueOptions",
           "persistentUuid": "67ea49cf-a8e7-493e-a1a2-8747567fcea2",
           "width": 0,
-          "x": 71,
-          "y": 528,
+          "x": 1467,
+          "y": 516,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4809,6 +6143,22 @@
           "x": 601,
           "y": 356,
           "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "",
+          "locked": false,
+          "name": "answerBox",
+          "persistentUuid": "7859d86e-1970-44d1-8c87-993cc29025ff",
+          "width": 100,
+          "x": 163,
+          "y": 511,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7400,6 +8750,45 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "answerBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Purple_Background_.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7850,6 +9239,16 @@
                 "dessert",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "answerBox"
               ],
               "subInstructions": []
             }
@@ -16598,7 +17997,18 @@
                   "parameters": [
                     "Temp_Total",
                     "=",
-                    "\"Calculated Value:\""
+                    "\"Answer:\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "answerBox",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -16857,7 +18267,18 @@
                   "parameters": [
                     "Temp_Total",
                     "=",
-                    "\"Valor Calculado:\""
+                    "\"Respuesta:\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "answerBox",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -33565,7 +34986,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "    \n      NEXT -->",
+          "string": "    \n      -->",
           "font": "",
           "characterSize": 45,
           "color": {
