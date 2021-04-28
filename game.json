@@ -22834,7 +22834,7 @@
               "parameters": [
                 "DialogueBox",
                 "=",
-                "\"Elena: Looks like any of the two meals go for $12. What is the most we can save?\n\""
+                "\"Elena: You can choose any two entrees for $12. Find the two entrees that will save you the most money. How much do you save?\n\""
               ],
               "subInstructions": []
             },
@@ -26277,7 +26277,7 @@
               "parameters": [
                 "ToNumber(CalculatedTotal.String())",
                 "=",
-                "4"
+                "6"
               ],
               "subInstructions": []
             },
@@ -26468,7 +26468,7 @@
                   "parameters": [
                     "DialogueBox",
                     "=",
-                    "\"They have the same thing for desserts, any two is $4. What is the most we can save?\""
+                    "\"You can also get any 2 desserts for $4. Find the two desserts that will save you the most money, how much will you save?\""
                   ],
                   "subInstructions": []
                 },
