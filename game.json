@@ -32818,6 +32818,17 @@
                 "Try_Again_Text"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Last",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -36149,6 +36160,17 @@
                 "Return"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Last",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -36464,6 +36486,26 @@
                     }
                   ],
                   "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Last",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ]
             }
@@ -36529,6 +36571,17 @@
               "parameters": [
                 "",
                 "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Last",
+                "True"
               ],
               "subInstructions": []
             }
@@ -36687,6 +36740,17 @@
               "parameters": [
                 "",
                 "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Last",
+                ""
               ],
               "subInstructions": []
             }
@@ -36908,6 +36972,17 @@
               "parameters": [
                 "",
                 "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Last",
+                "True"
               ],
               "subInstructions": []
             }
