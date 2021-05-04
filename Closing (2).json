@@ -1,0 +1,102 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Elena: Hey, I am so happy to see you here!\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif>> \n\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -208,
+			"y": -331
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "Elena: Thanks for coming! Comida con Amor is my favorite restaurant! [[Answer:ENG2|ENG2]]",
+		"position": {
+			"x": -204,
+			"y": -28
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartESP",
+		"tags": "",
+		"body": "Elena: ¡Hola, estoy tan feliz de verte aquí! [[Answer:Node_4|ESP1]]",
+		"position": {
+			"x": 248,
+			"y": -320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP1",
+		"tags": "",
+		"body": "Elena: Gracias por venir, Comida con Amor es mi restaurante favorito. [[Answer:ESP2|ESP2]]",
+		"position": {
+			"x": 245,
+			"y": -35
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Elena: All right, let's order some food!\n\n[[Answer:Eng4|Eng4]]",
+		"position": {
+			"x": -210,
+			"y": 230
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP2",
+		"tags": "",
+		"body": "Elena: De acuerdo, ¡ordenamos algo de comida!\n\n [[Answer:ESP4|ESP4]]",
+		"position": {
+			"x": 246,
+			"y": 229
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eng4",
+		"tags": "",
+		"body": "Waitress: Sorry for the wait, here are some menus [[Answer:ENGend|ENGend]]",
+		"position": {
+			"x": -221,
+			"y": 494
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP4",
+		"tags": "",
+		"body": "Mesera: Perdón por la espera, aquí hay algunos menús. [[Answer:ESPend|ESPend]]",
+		"position": {
+			"x": 211,
+			"y": 525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENGend",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -279,
+			"y": 1003
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESPend",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 294,
+			"y": 1008
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,102 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Elena: Wow, I'm so full!\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif>> \n\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -210,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "You: The food was really good! [[Answer:ENG2|ENG2]]",
+		"position": {
+			"x": -206,
+			"y": -28
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartESP",
+		"tags": "",
+		"body": "Elena: ¡Wow, estoy muy satisfecha! [[Answer:Node_4|ESP1]]",
+		"position": {
+			"x": 247,
+			"y": -321
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP1",
+		"tags": "",
+		"body": "Tu: Si, la comida estaba buena! [[Answer:ESP2|ESP2]]",
+		"position": {
+			"x": 239,
+			"y": -39
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "Elena:It was! Let’s come again soon.\n\n[[Answer:Eng4|Eng4]]",
+		"position": {
+			"x": -212,
+			"y": 228
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP2",
+		"tags": "",
+		"body": "Elena: Sí siempre, cuando quieras volvemos! \n\n [[Answer:ESP4|ESP4]]",
+		"position": {
+			"x": 245,
+			"y": 228
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Eng4",
+		"tags": "",
+		"body": "You: Sure! I’ll see you later [[Answer:ENGend|ENGend]]",
+		"position": {
+			"x": -223,
+			"y": 492
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP4",
+		"tags": "",
+		"body": "Tu: ¡Claro, nos vemos entonces! [[Answer:ESPend|ESPend]]",
+		"position": {
+			"x": 209,
+			"y": 523
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENGend",
+		"tags": "",
+		"body": "Elena: Bye!",
+		"position": {
+			"x": -203,
+			"y": 1071
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESPend",
+		"tags": "",
+		"body": "Tu: ¡Hasta luego!",
+		"position": {
+			"x": 194,
+			"y": 1073
+		},
+		"colorID": 0
+	}
+]
