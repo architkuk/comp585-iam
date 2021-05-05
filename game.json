@@ -1567,6 +1567,78 @@
         "metadata": "",
         "name": "Closing.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Nextbtn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Nextbtn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NextbtnHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NextbtnHover.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Restart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Restart.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Correct.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Correct.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/False.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\False.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RestartHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RestartHover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TryAgainBtn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TryAgainBtn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TryAgainHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TryAgainHover.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7137,14 +7209,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 32,
+          "height": 140,
           "layer": "",
           "locked": false,
           "name": "Reset_Button",
           "persistentUuid": "9092e330-7abb-4a87-88b6-57458a6e9706",
-          "width": 85,
-          "x": 864,
-          "y": 304,
+          "width": 174,
+          "x": 805,
+          "y": 262,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -7152,31 +7224,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Reset_Text",
-          "persistentUuid": "109e3066-fa58-43c6-8853-c703ec4abb8f",
-          "width": 0,
-          "x": 879,
-          "y": 308,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
-          "height": 142,
+          "height": 224,
           "layer": "",
           "locked": false,
           "name": "error",
           "persistentUuid": "fca59f85-a61e-477e-8584-4acdedab1abb",
-          "width": 575,
-          "x": 168,
-          "y": 287,
+          "width": 700,
+          "x": 107,
+          "y": 247,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -7233,14 +7289,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 140,
+          "height": 211,
           "layer": "",
           "locked": false,
           "name": "success",
           "persistentUuid": "6ddbd9f6-da14-490a-859d-757ca5a042e2",
-          "width": 570,
-          "x": 170,
-          "y": 288,
+          "width": 687,
+          "x": 114,
+          "y": 251,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -7265,31 +7321,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 55,
+          "height": 130,
           "layer": "",
           "locked": false,
           "name": "Next_Button",
           "persistentUuid": "886a0d0f-3f59-4117-9332-99e47b32bb10",
-          "width": 196,
-          "x": 381,
-          "y": 352,
+          "width": 186,
+          "x": 405,
+          "y": 335,
           "zOrder": 104,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Next_Text",
-          "persistentUuid": "e3533202-e70e-4e45-bd0a-8b6303b3b088",
-          "width": 0,
-          "x": 429,
-          "y": 353,
-          "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7345,22 +7385,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 53,
-          "layer": "",
-          "locked": false,
-          "name": "Next_Text_esp",
-          "persistentUuid": "6ae630e3-2167-49b7-8ebe-c3b6fd55b7b8",
-          "width": 195,
-          "x": 409,
-          "y": 358,
-          "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 48,
           "layer": "",
           "locked": false,
@@ -7393,31 +7417,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 48,
+          "height": 125,
           "layer": "",
           "locked": false,
           "name": "Next_Button2",
           "persistentUuid": "1f6af074-6ded-403f-8581-cbe2414158b6",
-          "width": 113,
-          "x": 591,
-          "y": 358,
+          "width": 159,
+          "x": 575,
+          "y": 328,
           "zOrder": 114,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Next_Text2",
-          "persistentUuid": "3a4c76fd-daa3-4de0-9ecd-21766f037864",
-          "width": 0,
-          "x": 601,
-          "y": 356,
-          "zOrder": 116,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7441,14 +7449,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 56,
+          "height": 172,
           "layer": "",
           "locked": false,
           "name": "Wrong_Button",
           "persistentUuid": "f3296b6b-b2ff-45e4-88a6-590f9dd5b891",
-          "width": 145,
-          "x": 366,
-          "y": 351,
+          "width": 263,
+          "x": 311,
+          "y": 297,
           "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
@@ -7463,7 +7471,7 @@
           "name": "Retry",
           "persistentUuid": "5d973cf1-b868-48d9-a8b3-295ca744d3e8",
           "width": 113,
-          "x": 394,
+          "x": 386,
           "y": 358,
           "zOrder": 118,
           "numberProperties": [],
@@ -9397,16 +9405,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Restart.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9426,16 +9434,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\RestartHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9522,16 +9530,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-0.png",
+                      "image": "assets\\False.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9580,16 +9588,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-1.png",
+                      "image": "assets\\Correct.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9685,7 +9693,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Nextbtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9705,16 +9713,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\NextbtnHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9744,16 +9752,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\TryAgainBtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9773,16 +9781,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\TryAgainHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9821,7 +9829,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Nextbtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9850,7 +9858,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\NextbtnHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9870,25 +9878,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Next_Text2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Next",
-          "font": "",
-          "characterSize": 45,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
         },
         {
           "bold": false,
@@ -10540,16 +10529,6 @@
                 "Dessert",
                 "=",
                 "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "Next_Text2"
               ],
               "subInstructions": []
             },
@@ -18404,17 +18383,6 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Montre"
-                              },
-                              "parameters": [
-                                "Next_Text2",
-                                ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
                                 "value": "SetSceneVariableAsBoolean"
                               },
                               "parameters": [
@@ -18720,17 +18688,6 @@
                               },
                               "parameters": [
                                 "Next_Button2",
-                                ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Montre"
-                              },
-                              "parameters": [
-                                "Next_Text2",
                                 ""
                               ],
                               "subInstructions": []
@@ -21230,14 +21187,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 142,
+          "height": 243,
           "layer": "",
           "locked": false,
           "name": "error",
           "persistentUuid": "fca59f85-a61e-477e-8584-4acdedab1abb",
-          "width": 575,
-          "x": 168,
-          "y": 287,
+          "width": 754,
+          "x": 77,
+          "y": 240,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -21294,14 +21251,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 140,
+          "height": 250,
           "layer": "",
           "locked": false,
           "name": "success",
           "persistentUuid": "6ddbd9f6-da14-490a-859d-757ca5a042e2",
-          "width": 570,
-          "x": 170,
-          "y": 288,
+          "width": 743,
+          "x": 86,
+          "y": 234,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -21326,31 +21283,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 55,
+          "height": 187,
           "layer": "",
           "locked": false,
           "name": "Next_Button",
           "persistentUuid": "886a0d0f-3f59-4117-9332-99e47b32bb10",
-          "width": 196,
-          "x": 381,
-          "y": 352,
+          "width": 227,
+          "x": 358,
+          "y": 310,
           "zOrder": 104,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Next_Text",
-          "persistentUuid": "e3533202-e70e-4e45-bd0a-8b6303b3b088",
-          "width": 0,
-          "x": 429,
-          "y": 353,
-          "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21406,22 +21347,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 53,
-          "layer": "",
-          "locked": false,
-          "name": "Next_Text_esp",
-          "persistentUuid": "6ae630e3-2167-49b7-8ebe-c3b6fd55b7b8",
-          "width": 195,
-          "x": 409,
-          "y": 358,
-          "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 48,
           "layer": "",
           "locked": false,
@@ -21454,14 +21379,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 62,
+          "height": 172,
           "layer": "",
           "locked": false,
           "name": "End_Button",
           "persistentUuid": "549bea60-14c4-41bc-add3-7f0e9fb227ad",
-          "width": 211,
-          "x": 519,
-          "y": 359,
+          "width": 197,
+          "x": 556,
+          "y": 323,
           "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
@@ -21469,31 +21394,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "End_Text",
-          "persistentUuid": "f032feb8-784a-41b4-8536-d5b947621c4a",
-          "width": 0,
-          "x": 561,
-          "y": 364,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
-          "height": 61,
+          "height": 140,
           "layer": "",
           "locked": false,
           "name": "Reset_Button",
           "persistentUuid": "8974f449-65bd-434d-bf9f-19383336aa2f",
-          "width": 152,
-          "x": 200,
-          "y": 362,
+          "width": 236,
+          "x": 158,
+          "y": 327,
           "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
@@ -21502,7 +21411,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 47,
           "layer": "",
           "locked": false,
           "name": "Reset_Text",
@@ -23451,7 +23360,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\TryAgainBtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23471,16 +23380,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\TryAgainHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23567,16 +23476,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-0.png",
+                      "image": "assets\\False.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23625,16 +23534,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-1.png",
+                      "image": "assets\\Correct.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23721,16 +23630,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Nextbtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23750,16 +23659,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\NextbtnHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23789,16 +23698,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Nextbtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23818,16 +23727,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\NextbtnHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23857,16 +23766,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Nextbtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23886,16 +23795,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\NextbtnHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28082,7 +27991,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7
+        "zoomFactor": 0.6519999999999996
       },
       "objectsGroups": [
         {
@@ -28290,14 +28199,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 142,
+          "height": 232,
           "layer": "",
           "locked": false,
           "name": "error",
           "persistentUuid": "fca59f85-a61e-477e-8584-4acdedab1abb",
-          "width": 575,
-          "x": 168,
-          "y": 287,
+          "width": 701,
+          "x": 104,
+          "y": 244,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -28354,14 +28263,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 140,
+          "height": 227,
           "layer": "",
           "locked": false,
           "name": "success",
           "persistentUuid": "6ddbd9f6-da14-490a-859d-757ca5a042e2",
-          "width": 570,
-          "x": 170,
-          "y": 288,
+          "width": 686,
+          "x": 108,
+          "y": 241,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -28386,31 +28295,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 55,
+          "height": 137,
           "layer": "",
           "locked": false,
           "name": "Next_Button",
           "persistentUuid": "886a0d0f-3f59-4117-9332-99e47b32bb10",
-          "width": 196,
-          "x": 381,
-          "y": 352,
+          "width": 178,
+          "x": 374,
+          "y": 322,
           "zOrder": 104,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Next_Text",
-          "persistentUuid": "e3533202-e70e-4e45-bd0a-8b6303b3b088",
-          "width": 0,
-          "x": 429,
-          "y": 353,
-          "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28466,22 +28359,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 53,
-          "layer": "",
-          "locked": false,
-          "name": "Next_Text_esp",
-          "persistentUuid": "6ae630e3-2167-49b7-8ebe-c3b6fd55b7b8",
-          "width": 195,
-          "x": 409,
-          "y": 358,
-          "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 48,
           "layer": "",
           "locked": false,
@@ -28530,14 +28407,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 52,
+          "height": 147,
           "layer": "",
           "locked": false,
           "name": "Try_Again_Button",
           "persistentUuid": "6246d2c0-4c13-4fd5-958b-6a207dba0914",
-          "width": 189,
-          "x": 529,
-          "y": 369,
+          "width": 247,
+          "x": 501,
+          "y": 325,
           "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
@@ -28545,13 +28422,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 91,
           "layer": "",
           "locked": false,
           "name": "Try_Again_Text",
           "persistentUuid": "6e387c0d-4c8c-41a4-80b9-c7a8eee53d49",
-          "width": 0,
+          "width": 170,
           "x": 542,
           "y": 373,
           "zOrder": 120,
@@ -30611,16 +30488,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-0.png",
+                      "image": "assets\\False.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30669,16 +30546,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-1.png",
+                      "image": "assets\\Correct.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30765,16 +30642,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Nextbtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30794,16 +30671,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\NextbtnHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30833,16 +30710,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\Nextbtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30862,16 +30739,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\NextbtnHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31195,16 +31072,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assetstemptempStartButton",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/tempStartButton.png",
+                      "image": "assets\\TryAgainBtn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31224,16 +31101,16 @@
               ]
             },
             {
-              "name": "assetstemptempStartButtonPressed",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/temp/assetstemptempStartButtonPressed-1.png",
+                      "image": "assets\\TryAgainHover.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -35844,15 +35721,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 153,
+          "height": 129,
           "layer": "",
           "locked": false,
-          "name": "NextButton",
-          "persistentUuid": "fe53fc09-1409-4861-aea6-9ede1ce61d01",
-          "width": 319,
-          "x": 716,
-          "y": 493,
-          "zOrder": 19,
+          "name": "NextBtn",
+          "persistentUuid": "37b1cc0e-d85b-4e57-8261-8c9d5b233cf7",
+          "width": 165,
+          "x": 738,
+          "y": 502,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36984,6 +36861,45 @@
             "g": 211,
             "r": 123
           }
+        },
+        {
+          "name": "NextBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Nextbtn.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -37090,7 +37006,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "NextButton"
+                "NextBtn"
               ],
               "subInstructions": []
             }
@@ -37234,7 +37150,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37291,7 +37207,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37348,7 +37264,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37405,7 +37321,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37462,7 +37378,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37519,7 +37435,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37576,7 +37492,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37633,7 +37549,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     ""
                   ],
                   "subInstructions": []
@@ -37664,7 +37580,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "NextButton",
+                    "NextBtn",
                     "",
                     "",
                     ""
