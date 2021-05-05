@@ -1491,14 +1491,6 @@
         "userAdded": false
       },
       {
-        "disablePreload": false,
-        "file": "NewFile.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "NewFile.json",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/GroceryHover.png",
         "kind": "image",
@@ -1638,6 +1630,14 @@
         "metadata": "",
         "name": "assets\\TryAgainHover.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "NewFile.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "NewFile.json",
         "userAdded": true
       }
     ],
@@ -5450,7 +5450,7 @@
                               },
                               "parameters": [
                                 "",
-                                "\"Restaurant\"",
+                                "\"Map\"",
                                 ""
                               ],
                               "subInstructions": []
@@ -5482,7 +5482,7 @@
                               },
                               "parameters": [
                                 "",
-                                "\"Restaurant\"",
+                                "\"Map\"",
                                 ""
                               ],
                               "subInstructions": []
@@ -7279,7 +7279,7 @@
           "name": "Temp_Total_Val",
           "persistentUuid": "7bbbd20d-dabc-4826-ae38-a95253d74bcf",
           "width": 0,
-          "x": 178,
+          "x": 218,
           "y": 517,
           "zOrder": 14,
           "numberProperties": [],
@@ -7439,7 +7439,7 @@
           "name": "answerBox",
           "persistentUuid": "7859d86e-1970-44d1-8c87-993cc29025ff",
           "width": 100,
-          "x": 163,
+          "x": 203,
           "y": 511,
           "zOrder": 10,
           "numberProperties": [],
@@ -9495,7 +9495,7 @@
           "behaviors": [],
           "string": "Your Order: ",
           "font": "",
-          "characterSize": 25,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -21423,6 +21423,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "locked": false,
+          "name": "answerBox",
+          "persistentUuid": "67863d51-8bbc-4e35-a90c-c40fbd662dd1",
+          "width": 104,
+          "x": 203,
+          "y": 511,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Reset_Text_esp",
+          "persistentUuid": "d91920ac-8893-41bf-a623-d76699cfbc7d",
+          "width": 0,
+          "x": 200,
+          "y": 371,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -23441,7 +23473,26 @@
           "behaviors": [],
           "string": "Your Order: ",
           "font": "",
-          "characterSize": 25,
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Reset_Text_esp",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Rehacer",
+          "font": "",
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
@@ -23994,7 +24045,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "\n¡No puedes pagar esto! El precio total de su plato principal, bebida y postre excede su presupuesto. Haga clic en Restablecer y elija una combinación diferente.",
+          "string": "Ese no es el mejor trato. Intentar otra vez.",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -24098,6 +24149,54 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "answerBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Purple_Background_.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [
@@ -24435,6 +24534,26 @@
                 "Reset_Text"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BonusQuestionsBackdrop"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Reset_Text_esp"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -24713,7 +24832,90 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "AppLanguage",
+                        "=",
+                        "\"Spanish\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Entrees_Header",
+                        "=",
+                        "\"Entradas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Drinks_Header",
+                        "=",
+                        "\"Bebidas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Desserts_Header",
+                        "=",
+                        "\"Postres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "BudgetText",
+                        "=",
+                        "\"Presupuesto: $14.00\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "SelectedBox",
+                        "=",
+                        "\"Tu pedido: \""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -24990,7 +25192,90 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "AppLanguage",
+                        "=",
+                        "\"Spanish\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Entrees_Header",
+                        "=",
+                        "\"Entradas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Drinks_Header",
+                        "=",
+                        "\"Bebidas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Desserts_Header",
+                        "=",
+                        "\"Postres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "BudgetText",
+                        "=",
+                        "\"Presupuesto: $10.00\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "SelectedBox",
+                        "=",
+                        "\"Tu pedido: \""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -25267,7 +25552,90 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "AppLanguage",
+                        "=",
+                        "\"Spanish\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Entrees_Header",
+                        "=",
+                        "\"Entradas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Drinks_Header",
+                        "=",
+                        "\"Bebidas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Desserts_Header",
+                        "=",
+                        "\"Postres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "BudgetText",
+                        "=",
+                        "\"Presupuesto: $13.00\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "SelectedBox",
+                        "=",
+                        "\"Tu pedido: \""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -25318,7 +25686,7 @@
                   "parameters": [
                     "Temp_Total",
                     "=",
-                    "\"Calculated Answer: \""
+                    "\"Answer: \""
                   ],
                   "subInstructions": []
                 }
@@ -25374,7 +25742,7 @@
                   "parameters": [
                     "Temp_Total",
                     "=",
-                    "\"Respuesta calculada:\""
+                    "\"Respuesta:\""
                   ],
                   "subInstructions": []
                 }
@@ -27264,6 +27632,26 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "success_msg_esp"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Next_Text_esp"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -27481,6 +27869,18 @@
                 "Return"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -27544,6 +27944,106 @@
               "parameters": [
                 "ToNumber(CalculatedTotal.String())",
                 "=",
+                "Variable(entreeMoneySaved)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "entreeDeal",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "success",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "success_msg_esp",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Next_Text_esp",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Next_Button",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "ToNumber(CalculatedTotal.String())",
+                "=",
                 "Variable(dessertMoneySaved)"
               ],
               "subInstructions": []
@@ -27569,6 +28069,18 @@
                 "Return"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -27590,6 +28102,106 @@
               },
               "parameters": [
                 "success_msg",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "End_Text",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "End_Button",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "ToNumber(CalculatedTotal.String())",
+                "=",
+                "Variable(dessertMoneySaved)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "entreeDeal",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "success",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "success_msg_esp",
                 ""
               ],
               "subInstructions": []
@@ -27657,6 +28269,218 @@
                 "Return"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error_msg",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Reset_Button",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Reset_Text",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "ToNumber(CalculatedTotal.String())",
+                "!=",
+                "Variable(entreeMoneySaved)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "entreeDeal",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error_message_esp",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Reset_Button",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Reset_Text_esp",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "ToNumber(CalculatedTotal.String())",
+                "!=",
+                "Variable(dessertMoneySaved)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "entreeDeal",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -27745,6 +28569,18 @@
                 "Return"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -27765,7 +28601,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "error_msg",
+                "error_message_esp",
                 ""
               ],
               "subInstructions": []
@@ -27787,7 +28623,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Reset_Text",
+                "Reset_Text_esp",
                 ""
               ],
               "subInstructions": []
@@ -27896,6 +28732,36 @@
                   },
                   "parameters": [
                     "Reset_Text"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "error_message_esp"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "success_msg_esp"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Reset_Text_esp"
                   ],
                   "subInstructions": []
                 }
@@ -28253,7 +29119,7 @@
           "name": "Temp_Total_Val",
           "persistentUuid": "7bbbd20d-dabc-4826-ae38-a95253d74bcf",
           "width": 0,
-          "x": 215,
+          "x": 218,
           "y": 517,
           "zOrder": 118,
           "numberProperties": [],
@@ -28397,7 +29263,7 @@
           "name": "answerBox",
           "persistentUuid": "30839c52-0373-4563-98e4-af5d1e9e1d60",
           "width": 104,
-          "x": 202,
+          "x": 203,
           "y": 511,
           "zOrder": 117,
           "numberProperties": [],
@@ -28432,6 +29298,22 @@
           "x": 542,
           "y": 373,
           "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "",
+          "locked": false,
+          "name": "Try_Again_esp",
+          "persistentUuid": "af124f55-4ae0-4e8a-9523-2a093a7061bb",
+          "width": 148,
+          "x": 561,
+          "y": 374,
+          "zOrder": 121,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30453,7 +31335,7 @@
           "behaviors": [],
           "string": "Your Order: ",
           "font": "",
-          "characterSize": 25,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -30919,7 +31801,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "\n¡No puedes pagar esto! El precio total de su plato principal, bebida y postre excede su presupuesto. Haga clic en Restablecer y elija una combinación diferente.",
+          "string": "¡No exactamente! Haga clic en Rever, escriba una respuesta diferente y presione la tecla Intro.",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -31043,6 +31925,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Try_Again_esp",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Rever",
+          "font": "",
+          "characterSize": 38,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         },
         {
           "bold": false,
@@ -31494,6 +32395,16 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Try_Again_esp"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -31685,18 +32596,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "BudgetText",
-                    "=",
-                    "\"Budget: $14\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
@@ -31746,9 +32645,92 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "BudgetText",
+                    "=",
+                    "\"Budget: $14\""
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "AppLanguage",
+                        "=",
+                        "\"Spanish\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Entrees_Header",
+                        "=",
+                        "\"Entradas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Drinks_Header",
+                        "=",
+                        "\"Bebidas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Desserts_Header",
+                        "=",
+                        "\"Postres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "BudgetText",
+                        "=",
+                        "\"Presupuesto: $14.00\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -32001,7 +32983,78 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "AppLanguage",
+                        "=",
+                        "\"Spanish\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Entrees_Header",
+                        "=",
+                        "\"Entradas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Drinks_Header",
+                        "=",
+                        "\"Bebidas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Desserts_Header",
+                        "=",
+                        "\"Postres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "BudgetText",
+                        "=",
+                        "\"Presupuesto: $10.00\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -32254,7 +33307,78 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "AppLanguage",
+                        "=",
+                        "\"Spanish\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Entrees_Header",
+                        "=",
+                        "\"Entradas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Drinks_Header",
+                        "=",
+                        "\"Bebidas\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Desserts_Header",
+                        "=",
+                        "\"Postres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "BudgetText",
+                        "=",
+                        "\"Presupuesto: $13.00\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -32305,7 +33429,7 @@
                   "parameters": [
                     "Temp_Total",
                     "=",
-                    "\"Calculated Answer: \""
+                    "\"Answer: \""
                   ],
                   "subInstructions": []
                 }
@@ -32361,7 +33485,7 @@
                   "parameters": [
                     "Temp_Total",
                     "=",
-                    "\"Respuesta calculada:\""
+                    "\"Respuesta:\""
                   ],
                   "subInstructions": []
                 }
@@ -35101,6 +36225,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -35144,6 +36280,106 @@
               },
               "parameters": [
                 "Try_Again_Text",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "ToNumber(CalculatedTotal.String())",
+                "!=",
+                "GlobalVariable(total)-Variable(Max)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Last",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error_message_esp",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Try_Again_Button",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Try_Again_esp",
                 ""
               ],
               "subInstructions": []
@@ -35254,6 +36490,26 @@
                     "Try_Again_Text"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "error_message_esp"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Try_Again_esp"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -35333,6 +36589,18 @@
                 "True"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"English\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -35376,6 +36644,106 @@
               },
               "parameters": [
                 "Try_Again_Text",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "ToNumber(CalculatedTotal.String())",
+                "!=",
+                "GlobalVariable(total)-Variable(Min)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Last",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "AppLanguage",
+                "=",
+                "\"Spanish\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "error_message_esp",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Try_Again_Button",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Try_Again_esp",
                 ""
               ],
               "subInstructions": []
