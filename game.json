@@ -18809,6 +18809,18 @@
                             {
                               "type": {
                                 "inverted": false,
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Retry",
+                                "=",
+                                "\"Rever\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
                                 "value": "Montre"
                               },
                               "parameters": [
@@ -18859,6 +18871,18 @@
                               "parameters": [
                                 "Wrong_Button",
                                 ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "TextEntryObject::String"
+                              },
+                              "parameters": [
+                                "CalculatedTotal",
+                                "=",
+                                "\"\""
                               ],
                               "subInstructions": []
                             }
@@ -25674,7 +25698,7 @@
                   "parameters": [
                     "DialogueBox",
                     "=",
-                    "\"Elena: You can choose any two entrees for $12. Find the two entrees that will save you the most money. How much do you save?\n\""
+                    "\"Elena: You can choose any two different entrees for $12. Find the two different entrees that will save you the most money. How much do you save?\n\""
                   ],
                   "subInstructions": []
                 },
@@ -25730,7 +25754,7 @@
                   "parameters": [
                     "DialogueBox",
                     "=",
-                    "\"Elena: Puedes elegir dos entradas por $ 12. Encuentre los dos platos principales que le permitirán ahorrar más dinero. Cuanto te ahorras\""
+                    "\"Elena: Puedes elegir dos entradas diferentes por $ 12. Encuentre los dos platos diferentes principales que le permitirán ahorrar más dinero. Cuanto te ahorras\""
                   ],
                   "subInstructions": []
                 },
@@ -27682,7 +27706,7 @@
                       "parameters": [
                         "DialogueBox",
                         "=",
-                        "\"You can also get any 2 desserts for $4. Find the two desserts that will save you the most money, how much will you save?\""
+                        "\"You can also get any 2 different desserts for $4. Find the two different desserts that will save you the most money, how much will you save?\""
                       ],
                       "subInstructions": []
                     }
@@ -27716,7 +27740,7 @@
                       "parameters": [
                         "DialogueBox",
                         "=",
-                        "\"También puede obtener 2 postres por $ 4. Encuentra los dos postres que te ahorrarán más dinero, ¿cuánto ahorrarás?\""
+                        "\"También puede obtener 2 postres diferentes por $ 4. Encuentra los dos postres diferentes que te ahorrarán más dinero, ¿cuánto ahorrarás?\""
                       ],
                       "subInstructions": []
                     }
