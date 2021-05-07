@@ -1,0 +1,82 @@
+[
+	{
+		"title": "StartENG",
+		"tags": "",
+		"body": "Hi, my name is Ayu!\nClick or press enter to advance.\n\n<< if $isEnglish == false >>\n[[Answer:Node|StartESP]]\n<< endif>> \n\n[[Answer:Node|ENG1]]",
+		"position": {
+			"x": -212,
+			"y": -335
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG1",
+		"tags": "",
+		"body": "You can click on me if you need help or encouragement. [[Answer:ENG2|ENG2]]",
+		"position": {
+			"x": -208,
+			"y": -32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartESP",
+		"tags": "",
+		"body": "Hola, mi nombre es Ayu!\nHaga clic o presione enter para avanzar.\n[[Answer:Node_4|ESP1]]",
+		"position": {
+			"x": 242,
+			"y": -324
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP1",
+		"tags": "",
+		"body": "Puede hacer clic en mí si necesita ayuda o aliento. [[Answer:ESP2|ESP2]]",
+		"position": {
+			"x": 243,
+			"y": -37
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG2",
+		"tags": "",
+		"body": "For all math questions, just type your answer with your keyboard.\n\n[[Answer:ENGend|ENGend]]",
+		"position": {
+			"x": -219,
+			"y": 219
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP2",
+		"tags": "",
+		"body": "Para todas las preguntas de matemáticas, simplemente escriba su respuesta con su teclado.\n \n[[Answer:ESPend|ESPend]]",
+		"position": {
+			"x": 244,
+			"y": 227
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENGend",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -216,
+			"y": 575
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESPend",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 244,
+			"y": 587
+		},
+		"colorID": 0
+	}
+]
