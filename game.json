@@ -1633,28 +1633,21 @@
         "userAdded": true
       },
       {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-        "alwaysLoaded": false,
-        "file": "MapBackground.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "MapBackground.png",
-        "smoothed": true,
-        "userAdded": false
-=======
->>>>>>> Stashed changes
         "disablePreload": false,
         "file": "NewFile.json",
         "kind": "json",
         "metadata": "",
         "name": "NewFile.json",
         "userAdded": true
-<<<<<<< Updated upstream
-=======
->>>>>>> b1524e8244f40e7933309f27865d1b85f9649019
->>>>>>> Stashed changes
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MapBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MapBackground.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1701,14 +1694,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 469,
+          "height": 395,
           "layer": "",
           "locked": false,
           "name": "NewObject",
           "persistentUuid": "ee4fef05-6a7a-409a-98ae-11a3d3ef93e8",
-          "width": 714,
-          "x": 110,
-          "y": 104,
+          "width": 624,
+          "x": 122,
+          "y": 158,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1748,15 +1741,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 79,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
-          "name": "startLabel",
-          "persistentUuid": "82a0c28b-d6e7-4f7e-815c-87960a856c77",
-          "width": 299,
-          "x": 339,
-          "y": 294,
+          "name": "NewObject3",
+          "persistentUuid": "3ff055da-1a0e-41c1-943b-61afeaa799e5",
+          "width": 0,
+          "x": 304,
+          "y": 312,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1934,7 +1927,7 @@
           "variables": [],
           "behaviors": [],
           "content": {
-            "text": "[b][spacing=5]I AM in my World[/spacing][/b]",
+            "text": "[b][spacing=5]I Am in my World[/spacing][/b]",
             "opacity": 255,
             "fontSize": 80,
             "visible": true,
@@ -1986,7 +1979,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "startLabel",
+          "name": "NewObject3",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -1997,9 +1990,9 @@
           "font": "",
           "characterSize": 80,
           "color": {
-            "b": 29,
-            "g": 150,
-            "r": 223
+            "b": 10,
+            "g": 148,
+            "r": 231
           }
         }
       ],
@@ -2301,8 +2294,8 @@
           "name": "restLabel",
           "persistentUuid": "b77a9181-e7ab-4a5e-9b3e-695f5aeae158",
           "width": 0,
-          "x": 678,
-          "y": 362,
+          "x": 676,
+          "y": 359,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2487,14 +2480,30 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 785,
+          "height": 0,
           "layer": "",
           "locked": false,
-          "name": "backgroundGreen",
-          "persistentUuid": "8104c694-6934-4d18-8a9b-53c9e5b9f83e",
-          "width": 1291,
-          "x": -68,
-          "y": -95,
+          "name": "background",
+          "persistentUuid": "c3a35717-af89-46b9-a223-d4fe7d21a16a",
+          "width": 0,
+          "x": -192,
+          "y": -250,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 910,
+          "layer": "",
+          "locked": false,
+          "name": "background",
+          "persistentUuid": "f3c957ab-90ba-4e03-a46d-b5b8dbbbdab9",
+          "width": 1246,
+          "x": -129,
+          "y": -141,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2930,7 +2939,7 @@
           ]
         },
         {
-          "name": "backgroundGreen",
+          "name": "background",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -20582,14 +20591,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 745,
+          "height": 895,
           "layer": "",
           "locked": false,
           "name": "BG",
           "persistentUuid": "1fe8569a-506f-45b2-a414-95b7a25acb67",
-          "width": 1288,
-          "x": -92,
-          "y": -84,
+          "width": 1463,
+          "x": -137,
+          "y": -131,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -25804,15 +25813,7 @@
                   "parameters": [
                     "DialogueBox",
                     "=",
-<<<<<<< Updated upstream
                     "\"Elena: You can choose any two different entrees for $12. Find the two different entrees that will save you the most money. How much do you save?\n\""
-=======
-<<<<<<< HEAD
-                    "\"Elena: You can choose any two different entrees for $12. Find the two entrees that will save you the most money. How much do you save?\n\""
-=======
-                    "\"Elena: You can choose any two different entrees for $12. Find the two different entrees that will save you the most money. How much do you save?\n\""
->>>>>>> b1524e8244f40e7933309f27865d1b85f9649019
->>>>>>> Stashed changes
                   ],
                   "subInstructions": []
                 },
@@ -25868,15 +25869,7 @@
                   "parameters": [
                     "DialogueBox",
                     "=",
-<<<<<<< Updated upstream
                     "\"Elena: Puedes elegir dos entradas diferentes por $ 12. Encuentre los dos platos diferentes principales que le permitirán ahorrar más dinero. Cuanto te ahorras\""
-=======
-<<<<<<< HEAD
-                    "\"Elena: Puedes elegir dos diferente entradas por $ 12. Encuentre los dos platos principales que le permitirán ahorrar más dinero. Cuanto te ahorras\""
-=======
-                    "\"Elena: Puedes elegir dos entradas diferentes por $ 12. Encuentre los dos platos diferentes principales que le permitirán ahorrar más dinero. Cuanto te ahorras\""
->>>>>>> b1524e8244f40e7933309f27865d1b85f9649019
->>>>>>> Stashed changes
                   ],
                   "subInstructions": []
                 },
@@ -27828,15 +27821,7 @@
                       "parameters": [
                         "DialogueBox",
                         "=",
-<<<<<<< Updated upstream
                         "\"You can also get any 2 different desserts for $4. Find the two different desserts that will save you the most money, how much will you save?\""
-=======
-<<<<<<< HEAD
-                        "\"You can also get any 2 different desserts for $4. Find the two desserts that will save you the most money, how much will you save?\""
-=======
-                        "\"You can also get any 2 different desserts for $4. Find the two different desserts that will save you the most money, how much will you save?\""
->>>>>>> b1524e8244f40e7933309f27865d1b85f9649019
->>>>>>> Stashed changes
                       ],
                       "subInstructions": []
                     }
@@ -27870,15 +27855,7 @@
                       "parameters": [
                         "DialogueBox",
                         "=",
-<<<<<<< Updated upstream
                         "\"También puede obtener 2 postres diferentes por $ 4. Encuentra los dos postres diferentes que te ahorrarán más dinero, ¿cuánto ahorrarás?\""
-=======
-<<<<<<< HEAD
-                        "\"También puede obtener 2 diferente postres por $ 4. Encuentra los dos postres que te ahorrarán más dinero, ¿cuánto ahorrarás?\""
-=======
-                        "\"También puede obtener 2 postres diferentes por $ 4. Encuentra los dos postres diferentes que te ahorrarán más dinero, ¿cuánto ahorrarás?\""
->>>>>>> b1524e8244f40e7933309f27865d1b85f9649019
->>>>>>> Stashed changes
                       ],
                       "subInstructions": []
                     }
@@ -28043,7 +28020,6 @@
                 "\"English\""
               ],
               "subInstructions": []
-<<<<<<< Updated upstream
             }
           ],
           "actions": [
@@ -28444,412 +28420,6 @@
                 "\"English\""
               ],
               "subInstructions": []
-=======
->>>>>>> Stashed changes
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "error",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "error_msg",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Reset_Button",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Reset_Text",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "ToNumber(CalculatedTotal.String())",
-<<<<<<< Updated upstream
-                "!=",
-                "Variable(entreeMoneySaved)"
-=======
-                "=",
-                "Variable(entreeMoneySaved)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "entreeDeal",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"Spanish\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success_msg_esp",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Next_Text_esp",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Next_Button",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "ToNumber(CalculatedTotal.String())",
-                "=",
-                "Variable(dessertMoneySaved)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "entreeDeal",
-                "False"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"English\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success_msg",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "End_Text",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "End_Button",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "ToNumber(CalculatedTotal.String())",
-                "=",
-                "Variable(dessertMoneySaved)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "entreeDeal",
-                "False"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"Spanish\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "success_msg_esp",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "End_Text",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "End_Button",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "ToNumber(CalculatedTotal.String())",
-                "!=",
-                "Variable(entreeMoneySaved)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "entreeDeal",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"English\""
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -29014,117 +28584,12 @@
                 "ToNumber(CalculatedTotal.String())",
                 "!=",
                 "Variable(dessertMoneySaved)"
->>>>>>> Stashed changes
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "entreeDeal",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ],
-              "subInstructions": []
-<<<<<<< Updated upstream
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"Spanish\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "error",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "error_message_esp",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Reset_Button",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Reset_Text_esp",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "ToNumber(CalculatedTotal.String())",
-                "!=",
-                "Variable(dessertMoneySaved)"
-              ],
-              "subInstructions": []
-=======
->>>>>>> Stashed changes
-            },
-            {
-              "type": {
-                "inverted": false,
-<<<<<<< Updated upstream
                 "value": "SceneVariableAsBoolean"
               },
               "parameters": [
@@ -29137,14 +28602,10 @@
               "type": {
                 "inverted": false,
                 "value": "KeyPressed"
-=======
-                "value": "VarGlobalTxt"
->>>>>>> Stashed changes
               },
               "parameters": [
-                "AppLanguage",
-                "=",
-                "\"English\""
+                "",
+                "Return"
               ],
               "subInstructions": []
             },
@@ -36596,7 +36057,7 @@
                       "parameters": [
                         "DialogueBox",
                         "=",
-                        "\"How much is your total if you remove the least espensive item?\""
+                        "\"How much is your total if you remove the least expensive item?\""
                       ],
                       "subInstructions": []
                     }
@@ -36822,7 +36283,7 @@
                   "parameters": [
                     "success_msg",
                     "=",
-                    "\"Correct! You removed the cheapest item.\""
+                    "\"Correct! You removed the least expensive item.\""
                   ],
                   "subInstructions": []
                 }
@@ -37481,7 +36942,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7205833678960817
+        "zoomFactor": 0.7370833678960822
       },
       "objectsGroups": [],
       "variables": [],
@@ -37492,11 +36953,11 @@
           "height": 56,
           "layer": "",
           "locked": false,
-          "name": "labelENG",
+          "name": "label",
           "persistentUuid": "ac677f53-cdea-49b7-911b-b25876635ad9",
-          "width": 496,
-          "x": 238,
-          "y": 35,
+          "width": 360,
+          "x": 305,
+          "y": 28,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -37779,55 +37240,20 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "labelESP",
-          "persistentUuid": "e25ee219-07dc-432a-a1a2-341e9f90ac58",
-          "width": 0,
-          "x": 278,
-          "y": 34,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
         {
           "bold": true,
           "italic": false,
-          "name": "labelESP",
+          "name": "label",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Elige un Avatar",
-          "font": "",
-          "characterSize": 50,
-          "color": {
-            "b": 173,
-            "g": 56,
-            "r": 102
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "labelENG",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Choose an Avatar",
+          "string": "Pick an Avatar",
           "font": "",
           "characterSize": 50,
           "color": {
@@ -39117,92 +38543,6 @@
               },
               "parameters": [
                 "NextBtn"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "labelESP"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "labelENG"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"English\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "labelENG",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "AppLanguage",
-                "=",
-                "\"Spanish\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "labelESP",
-                ""
               ],
               "subInstructions": []
             }
@@ -40783,6 +40123,41 @@
                 "NextBtn",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NextBtn",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "NextBtn",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
