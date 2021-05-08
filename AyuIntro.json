@@ -12,9 +12,9 @@
 	{
 		"title": "ENG1",
 		"tags": "",
-		"body": "You can click on me if you need help or encouragement. [[Answer:ENG2|ENG2]]",
+		"body": "You can hover over me if you need help or encouragement. [[Answer:ENG2|ENG2]]",
 		"position": {
-			"x": -208,
+			"x": -210,
 			"y": -32
 		},
 		"colorID": 0
@@ -32,10 +32,10 @@
 	{
 		"title": "ESP1",
 		"tags": "",
-		"body": "Puede hacer clic en mí si necesita ayuda o aliento. [[Answer:ESP2|ESP2]]",
+		"body": "Puede pasar el cursor sobre mí si necesitas aliento. [[Answer:ESP2|ESP2]]",
 		"position": {
-			"x": 243,
-			"y": -37
+			"x": 239,
+			"y": -39
 		},
 		"colorID": 0
 	},

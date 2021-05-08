@@ -19686,31 +19686,8 @@
                                 "value": "Montre"
                               },
                               "parameters": [
-                                "error_msg",
-                                ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Montre"
-                              },
-                              "parameters": [
                                 "error",
                                 ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "error_msg",
-                                "=",
-                                "\"Not quite, check your math and try again!\n\n(Delete your current answer by using backspace, then type in your new answer)\""
                               ],
                               "subInstructions": []
                             },
@@ -19733,6 +19710,29 @@
                               "parameters": [
                                 "Retry",
                                 ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "error_msg",
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "error_msg",
+                                "=",
+                                "\"Incorrect, please try again.\""
                               ],
                               "subInstructions": []
                             }
@@ -21511,6 +21511,18 @@
                   },
                   "parameters": [
                     "Retry"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::String"
+                  },
+                  "parameters": [
+                    "CalculatedTotal",
+                    "=",
+                    "\"\""
                   ],
                   "subInstructions": []
                 }
@@ -39474,7 +39486,7 @@
           "locked": false,
           "name": "label",
           "persistentUuid": "ac677f53-cdea-49b7-911b-b25876635ad9",
-          "width": 360,
+          "width": 627,
           "x": 305,
           "y": 28,
           "zOrder": 1,
@@ -41066,7 +41078,42 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "AppLanguage",
+                    "=",
+                    "\"Spanish\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "label",
+                    "=",
+                    "\"Elige un Avatar\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
