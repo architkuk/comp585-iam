@@ -30915,7 +30915,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6519999999999996
+        "zoomFactor": 0.6819999999999993
       },
       "objectsGroups": [
         {
@@ -31225,8 +31225,8 @@
           "name": "Next_Button",
           "persistentUuid": "886a0d0f-3f59-4117-9332-99e47b32bb10",
           "width": 178,
-          "x": 374,
-          "y": 322,
+          "x": 360,
+          "y": 319,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -31404,6 +31404,22 @@
           "x": 603,
           "y": 332,
           "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 148,
+          "layer": "",
+          "locked": false,
+          "name": "Next_Button2",
+          "persistentUuid": "1c580c5d-3594-4133-b1e5-a2fcd8684720",
+          "width": 128,
+          "x": 190,
+          "y": 314,
+          "zOrder": 124,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -34583,6 +34599,16 @@
               },
               "parameters": [
                 "affirmation"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Next_Button2"
               ],
               "subInstructions": []
             }
@@ -38267,31 +38293,8 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Next_Button",
+                "Next_Button2",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "Next_Text",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"RestaurantBonus2\"",
-                "no"
               ],
               "subInstructions": []
             }
@@ -39292,6 +39295,118 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Next_Button2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Next_Button2",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RestaurantBonus2\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Next_Button2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Next_Button2",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -42650,7 +42765,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.1124999999999994
+        "zoomFactor": 0.42249999999999877
       },
       "objectsGroups": [],
       "variables": [],
@@ -42674,14 +42789,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 655,
+          "height": 948,
           "layer": "",
           "locked": false,
           "name": "BackGround",
           "persistentUuid": "124588d4-b5df-4130-af27-b18c7f243ffd",
-          "width": 1078,
-          "x": -57,
-          "y": -24,
+          "width": 1541,
+          "x": -152,
+          "y": -155,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
