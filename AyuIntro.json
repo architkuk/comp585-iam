@@ -42,17 +42,17 @@
 	{
 		"title": "ENG2",
 		"tags": "",
-		"body": "For all math questions, just type your answer with your keyboard. And if you ever want to exit full screen, hit the escape key. \n\n[[Answer:ENGend|ENGend]]",
+		"body": "For all math questions, just type your answer with your keyboard. And if you ever want to exit full screen, hit the escape key. \n\n[[Answer:ENG3|ENG3]]",
 		"position": {
-			"x": -219,
-			"y": 219
+			"x": -211,
+			"y": 190
 		},
 		"colorID": 0
 	},
 	{
 		"title": "ESP2",
 		"tags": "",
-		"body": "Para todas las preguntas de matemáticas, simplemente escriba su respuesta con su teclado. Y si alguna vez quieres salir de la pantalla completa, presiona la tecla Escape.\n \n[[Answer:ESPend|ESPend]]",
+		"body": "Para todas las preguntas de matemáticas, simplemente escriba su respuesta con su teclado. Y si alguna vez quieres salir de la pantalla completa, presiona la tecla Escape.\n \n[[Answer:ESP3|ESP3]]",
 		"position": {
 			"x": 244,
 			"y": 227
@@ -64,8 +64,8 @@
 		"tags": "",
 		"body": "Empty Text",
 		"position": {
-			"x": -216,
-			"y": 575
+			"x": -206,
+			"y": 651
 		},
 		"colorID": 0
 	},
@@ -74,8 +74,28 @@
 		"tags": "",
 		"body": "Empty Text",
 		"position": {
+			"x": 248,
+			"y": 658
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ENG3",
+		"tags": "",
+		"body": "At anytime during the game, press the QUIT button in the top right corner to return to the Main Menu.\n\n[[Answer:ENGend|ENGend]]",
+		"position": {
+			"x": -208,
+			"y": 429
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ESP3",
+		"tags": "",
+		"body": "En cualquier momento durante el juego, presione el botón SALIR en la esquina superior derecha para regresar al Menú principal.\n\n[[Answer:ESPend|ESPend]]",
+		"position": {
 			"x": 244,
-			"y": 587
+			"y": 442
 		},
 		"colorID": 0
 	}
